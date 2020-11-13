@@ -4,6 +4,7 @@ Aha, algorithm by go
 # Table
 ## list
 * reverse-linked-list
+* sum-linked-list
 
 ## String Matching
 * Wu-Manber(WM) Algorithm
