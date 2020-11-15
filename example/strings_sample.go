@@ -6,9 +6,15 @@ import (
 )
 
 func main() {
+	testCompare()
 	testTrimLeft()
 	testCount()
 	testContains()
+}
+
+func testCompare() {
+	// str1 == str2, str1 > str2, str1 < str2
+	fmt.Println(strings.Compare("abc", "abd"))
 }
 
 func testTrimLeft() {
