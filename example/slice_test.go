@@ -21,3 +21,12 @@ func TestAppend(t *testing.T) {
 	slice = append(slice, 4)
 	fmt.Println(slice)
 }
+
+func TestSlice(t *testing.T) {
+	str := "123456"
+
+	// only one element
+	fmt.Println(str[1:2])
+	// empty
+	fmt.Println(str[2:2])
+}
