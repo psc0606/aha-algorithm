@@ -25,7 +25,8 @@ func BuildList(arr []int) *ListNode {
 	return head
 }
 
-func ListEqualCmp(head1 *ListNode, head2 *ListNode) bool {
+// test two list whether equal or not
+func TestListEqual(head1 *ListNode, head2 *ListNode) bool {
 	if head1 == head2 {
 		return true
 	}
@@ -45,7 +46,8 @@ func ListEqualCmp(head1 *ListNode, head2 *ListNode) bool {
 	}
 }
 
-func ListPrint(head *ListNode) {
+// print list like 1->2->3->4
+func PrintList(head *ListNode) {
 	p := head
 	var slice string
 	for p != nil {
