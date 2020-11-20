@@ -3,6 +3,7 @@ package list
 // https://leetcode-cn.com/problems/insertion-sort-list/
 // 4->2->1->3
 // last->4, next->2
+// Another better solution to swap list node is only swap the value, not the whole node.
 func insertionSortList(head *ListNode) *ListNode {
 	if head == nil {
 		return nil
