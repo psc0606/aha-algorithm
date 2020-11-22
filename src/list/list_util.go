@@ -47,7 +47,7 @@ func TestListEqual(head1 *ListNode, head2 *ListNode) bool {
 }
 
 // print list like 1->2->3->4
-func PrintList(head *ListNode) {
+func PrintList(head *ListNode) string {
 	p := head
 	var slice string
 	for p != nil {
@@ -59,4 +59,5 @@ func PrintList(head *ListNode) {
 		p = p.Next
 	}
 	fmt.Println(slice)
+	return slice
 }
