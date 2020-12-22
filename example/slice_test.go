@@ -29,4 +29,6 @@ func TestSlice(t *testing.T) {
 	fmt.Println(str[1:2])
 	// empty
 	fmt.Println(str[2:2])
+
+	fmt.Println(str[1:])
 }
