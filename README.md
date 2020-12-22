@@ -1,3 +1,5 @@
+<a title="Hit" target="_blank" href="https://github.com/psc0606/aha-algorithm"><img src="https://hits.b3log.org/psc0606/aha-algorithm.svg"></a>
+
 # aha-algorithm
 Aha, algorithm by go
 
