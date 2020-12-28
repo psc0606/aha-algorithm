@@ -37,3 +37,17 @@ func TestListTraversal(t *testing.T) {
 		}
 	}
 }
+
+func TestPushNil(t *testing.T) {
+	// support push multiple nil
+	l := list.New()
+	l.PushBack(nil)
+	l.PushBack(nil)
+	l.PushBack(nil)
+	for e := l.Front(); e != nil; e = e.Next() {
+		// cast to int
+		//v := (e.Value).(*int)
+		fmt.Println(e.Value)
+		//fmt.Println(v)
+	}
+}
