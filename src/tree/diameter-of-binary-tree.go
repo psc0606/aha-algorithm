@@ -1,6 +1,11 @@
 package tree
 
 // https://leetcode-cn.com/problems/diameter-of-binary-tree/
+//      1
+//     / \
+//    2   3
+//   / \
+//  4   5
 func diameterOfBinaryTree(root *TreeNode) int {
 	if root == nil {
 		return 0
