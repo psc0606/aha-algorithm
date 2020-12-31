@@ -2,6 +2,14 @@ language: go
 
 go:
   - 1.x
+  - tip
   - master
 
-script: go test -v ./...
+before_install:
+  - go get -t -v ./...
+
+script:
+  - go test ./src/... -race -coverprofile=coverage.txt -covermode=atomic
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
