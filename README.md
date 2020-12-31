@@ -1,4 +1,5 @@
 <a title="Hit" target="_blank" href="https://github.com/psc0606/aha-algorithm"><img src="https://hits.b3log.org/psc0606/aha-algorithm.svg"></a>
+[![Build Status](https://travis-ci.com/psc0606/aha-algorithm.svg?branch=main)](https://travis-ci.com/psc0606/aha-algorithm)
 
 # aha-algorithm
 Aha, algorithm by go
@@ -47,3 +48,6 @@ Aha, algorithm by go
 * LFU (TODO)
 * W-TintyLFU (TODO)
 * ...
+
+## Election Algorithm
+*  Boyer–Moore majority vote algorithm - A Fast Majority Vote Algorithm.pdf
