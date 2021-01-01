@@ -1,4 +1,4 @@
-package array
+package election
 
 // https://leetcode-cn.com/problems/majority-element/
 // `Boyer–Moore majority vote algorithm` aha-algorithm/paper/A Fast Majority Vote Algorithm.pdf
