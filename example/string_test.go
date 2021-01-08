@@ -21,3 +21,7 @@ func TestByte2String(t *testing.T) {
 	fmt.Println(string(rune(48))) // ascii(48)=0
 	fmt.Println(string(rune(97))) // ascii(97)=a
 }
+
+func TestStringEqual(t *testing.T) {
+	fmt.Println("abc" == "abc") // true
+}
