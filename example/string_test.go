@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strconv"
 	"testing"
 )
 
@@ -24,4 +25,10 @@ func TestByte2String(t *testing.T) {
 
 func TestStringEqual(t *testing.T) {
 	fmt.Println("abc" == "abc") // true
+}
+
+func TestIntToString(t *testing.T) {
+	// int to string
+	str := strconv.Itoa(343)
+	fmt.Println(str)
 }
