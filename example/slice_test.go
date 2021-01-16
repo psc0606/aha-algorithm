@@ -5,6 +5,15 @@ import (
 	"testing"
 )
 
+func TestAppendNil(t *testing.T) {
+	var slice []interface{}
+	// can append more than one nil
+	slice = append(slice, nil)
+	slice = append(slice, nil)
+	slice = append(slice, nil)
+	fmt.Println(slice)
+}
+
 func TestAppend(t *testing.T) {
 	var slice []int
 	slice = append(slice, 1)
