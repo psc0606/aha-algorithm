@@ -1,5 +1,7 @@
 package tree
 
+import "aha-algorithm/src/util"
+
 // https://leetcode-cn.com/problems/validate-binary-search-tree/
 // validate a binary search tree.
 //        5
@@ -45,4 +47,20 @@ func findRightMostNode(root *TreeNode) *TreeNode {
 		return root
 	}
 	return findRightMostNode(root.Right)
+}
+
+// https://leetcode-cn.com/problems/validate-binary-search-tree/solution/yan-zheng-er-cha-sou-suo-shu-by-leetcode-solution/
+// better solution
+func isValidBST2(root *TreeNode) bool {
+	return helper(root, util.IntMin, util.IntMax)
+}
+
+func helper(root *TreeNode, lower int, upper int) bool {
+	if root == nil {
+		return true
+	}
+	if root.Val <= lower || root.Val >= upper {
+		return false
+	}
+	return helper(root.Left, lower, root.Val) && helper(root.Right, root.Val, upper)
 }
