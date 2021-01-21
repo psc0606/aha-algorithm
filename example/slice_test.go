@@ -41,3 +41,10 @@ func TestSlice(t *testing.T) {
 
 	fmt.Println(str[1:])
 }
+
+func TestOutOfRange(t *testing.T) {
+	str := "123456"
+	fmt.Println(str[5:len(str)])
+	// error, out of range, compile error
+	// fmt.Println(str[5:len(str)+1])
+}
