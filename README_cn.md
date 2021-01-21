@@ -4,54 +4,55 @@
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm?ref=badge_shield)
 
 # aha-algorithm
-Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
+啊哈, 算法 golang 实现. 英文版本 [README.md](./README.md)
 
-# Table
-## list
-* reverse-linked-list
-* sum-linked-list
+# 目录
+## 链表
+* 反转单链表
+* 链表求和
 
-## String Matching
-* Wu-Manber(WM) Algorithm
-* Shift-And Algorithm
+## 字符串匹配算法
+* 多模匹配算法 Wu-Manber(WM) 算法
+* 单模 Shift-And 算法
 
-## Sort Algorithm
-* Quick Sort
-* Merge Sort
-* Heap Sort
-* RB-Tree (TODO)
+## 排序算法
+* 快排
+* 归并排序
+* 堆排序
 * ...
 
-## Advanced Structure
-* Heap
-* SkipList (TODO)
-* Tire (TODO)
+## 高级数据结构
+* 并查集
+* 堆 (TODO)
+* 跳跃表 (TODO)
+* Tire树 (TODO)
 * Double Array Tire (TODO)
-* B-Tree (TODO)
-* B+Tree (TODO)
-* Ternary Search Tree (TODO)
-* FST (TODO)
+* B-树 (TODO)
+* B+树 (TODO)
+* 三叉搜索树(Ternary Search Tree) (TODO)
+* 有限状态转换机(FST, Finite State Transducer) (TODO)
+* 红黑树 (TODO)
 * ...
 
-## Geo
+## 地域结构
 * GeoHash (TODO)
-* Mercator (TODO)
+* 墨卡托 (TODO)
 * ...
 
-## Probabilistic Data Structure
+## 概率型数据结构
 * HyperLogLog (TODO)
-* Bloom Filter (TODO)
+* 布隆过滤器 (TODO)
 * Count-Min Sketch (TODO)
 * ...
 
-## Cache
+## 缓存
 * LRU (TODO)
 * LRU with timestamp (TODO)
 * LFU (TODO)
 * W-TintyLFU (TODO)
 * ...
 
-## Election Algorithm
+## 选举算法
 *  Boyer–Moore majority vote algorithm - A Fast Majority Vote Algorithm.pdf
 
 
