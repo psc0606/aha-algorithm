@@ -48,3 +48,19 @@ func TestOutOfRange(t *testing.T) {
 	// error, out of range, compile error
 	// fmt.Println(str[5:len(str)+1])
 }
+
+func TestInsert(t *testing.T) {
+	defer func() {
+		if r := recover(); r != nil {
+			fmt.Printf("catched panic：%s\n", r)
+		}
+	}()
+
+	var arr []int
+	// throw panic, but I will catch it by a defined defer func.
+	arr[10] = 1
+
+	arr = make([]int, 11)
+	// ok
+	arr[10] = 1
+}
