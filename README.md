@@ -7,10 +7,6 @@
 Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 
 # Table
-## list
-* reverse-linked-list
-* sum-linked-list
-
 ## String Matching
 * Wu-Manber(WM) Algorithm
 * Shift-And Algorithm
@@ -23,6 +19,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * ...
 
 ## Advanced Structure
+* [Disjoint Set (Union Find Set)](src/tree/disjoint-set.go)
 * Heap
 * SkipList (TODO)
 * Tire (TODO)
@@ -52,7 +49,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * ...
 
 ## Election Algorithm
-*  Boyer–Moore majority vote algorithm - A Fast Majority Vote Algorithm.pdf
+*  [Boyer–Moore majority vote algorithm - A Fast Majority Vote Algorithm](src/election/majority-element.go)
 
 
 ## License

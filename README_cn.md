@@ -7,10 +7,6 @@
 啊哈, 算法 golang 实现. 英文版本 [README.md](./README.md)
 
 # 目录
-## 链表
-* 反转单链表
-* 链表求和
-
 ## 字符串匹配算法
 * 多模匹配算法 Wu-Manber(WM) 算法
 * 单模 Shift-And 算法
@@ -22,7 +18,7 @@
 * ...
 
 ## 高级数据结构
-* 并查集
+* [并查集](src/tree/disjoint-set.go)
 * 堆 (TODO)
 * 跳跃表 (TODO)
 * Tire树 (TODO)
@@ -53,7 +49,7 @@
 * ...
 
 ## 选举算法
-*  Boyer–Moore majority vote algorithm - A Fast Majority Vote Algorithm.pdf
+* [Boyer–Moore majority vote algorithm - A Fast Majority Vote Algorithm](src/election/majority-element.go)
 
 
 ## License
