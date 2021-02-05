@@ -20,7 +20,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 
 ## Advanced Structure
 * [Disjoint Set (Union Find Set)](src/tree/disjoint-set.go)
-* Heap
+* [Heap](src/heap/heap.go)
 * SkipList (TODO)
 * Tire (TODO)
 * Double Array Tire (TODO)

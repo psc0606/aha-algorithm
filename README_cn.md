@@ -19,7 +19,7 @@
 
 ## 高级数据结构
 * [并查集](src/tree/disjoint-set.go)
-* 堆 (TODO)
+* [堆](src/heap/heap.go)
 * 跳跃表 (TODO)
 * Tire树 (TODO)
 * Double Array Tire (TODO)
