@@ -49,7 +49,7 @@
 * ...
 
 ## 选举算法
-* [Boyer–Moore majority vote algorithm - A Fast Majority Vote Algorithm](src/election/majority-element.go)
+* [摩尔投票法](src/election/majority-element.go) - [论文链接](paper/A%20Fast%20Majority%20Vote%20Algorithm.pdf)
 
 
 ## License

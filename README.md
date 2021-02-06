@@ -49,7 +49,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * ...
 
 ## Election Algorithm
-*  [Boyer–Moore majority vote algorithm - A Fast Majority Vote Algorithm](src/election/majority-element.go)
+*  [Boyer–Moore majority vote algorithm](src/election/majority-element.go) - [paper link](paper/A%20Fast%20Majority%20Vote%20Algorithm.pdf)
 
 
 ## License
