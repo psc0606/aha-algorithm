@@ -26,6 +26,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * Double Array Tire (TODO)
 * B-Tree (TODO)
 * B+Tree (TODO)
+* Segment Tree (TODO)
 * Ternary Search Tree (TODO)
 * FST (TODO)
 * ...

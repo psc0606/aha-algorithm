@@ -25,6 +25,7 @@
 * Double Array Tire (TODO)
 * B-树 (TODO)
 * B+树 (TODO)
+* 线段树 (TODO)
 * 三叉搜索树(Ternary Search Tree) (TODO)
 * 有限状态转换机(FST, Finite State Transducer) (TODO)
 * 红黑树 (TODO)
