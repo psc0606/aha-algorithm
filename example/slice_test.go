@@ -64,3 +64,19 @@ func TestInsert(t *testing.T) {
 	// ok
 	arr[10] = 1
 }
+
+func TestArrayAppend(t *testing.T) {
+	// init capacity is 0, max capacity is 10.
+	arr := make([]int, 0, 10)
+	fmt.Println(len(arr)) // 0
+	fmt.Println(arr)
+
+	for i := 0; i < 11; i++ {
+		// append will auto expand the capacity of array.
+		// arr = append(arr, i)
+
+		// index out of range
+		arr[i] = i
+	}
+	fmt.Println(arr)
+}
