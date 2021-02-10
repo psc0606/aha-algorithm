@@ -52,6 +52,8 @@
 ## 选举算法
 * [摩尔投票法](src/election/majority-element.go) - [论文链接](paper/A%20Fast%20Majority%20Vote%20Algorithm.pdf)
 
+## 趣味算法
+* [斐波那契数列](src/array/fibonacci_number.go)
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm?ref=badge_large)
