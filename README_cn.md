@@ -54,6 +54,8 @@
 
 ## 趣味算法
 * [斐波那契数列](src/array/fibonacci_number.go)
+* [任务调度](src/optimalization/task-scheduler.go)
+* [不同的二叉搜索树](src/tree/unique-binary-search-trees.go)
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm?ref=badge_large)

@@ -54,6 +54,8 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 
 ## Funny Problem
 * [Fibonacci Number](src/array/fibonacci_number.go)
+* [Task scheduler](src/optimalization/task-scheduler.go)  
+* [Unique binary search trees](src/tree/unique-binary-search-trees.go)
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm?ref=badge_large)
