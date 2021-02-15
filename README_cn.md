@@ -21,7 +21,7 @@
 * [并查集](src/tree/disjoint-set.go)
 * [堆](src/heap/heap.go)
 * 跳跃表 (TODO)
-* Tire树 (TODO)
+* [Trie树](src/tree/trie.go)
 * Double Array Tire (TODO)
 * B-树 (TODO)
 * B+树 (TODO)
