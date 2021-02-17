@@ -2,93 +2,87 @@ package cache
 
 // https://leetcode-cn.com/problems/lru-cache/
 // Implement by double linked list.
+// A better double-linked list implementing trick: use dummy head and dummy tail to avoid if-condition.
 type LRUCache struct {
-	capacity int
-	size     int
-	ht       map[int]*LRUCacheNode
-	head     *LRUCacheNode
-	tail     *LRUCacheNode
+	capacity   int
+	size       int
+	ht         map[int]*LRUCacheNode
+	head, tail *LRUCacheNode
 }
 
 type LRUCacheNode struct {
-	key  int
-	vale int
-	pre  *LRUCacheNode
-	next *LRUCacheNode
+	key, value int
+	prev, next *LRUCacheNode
+}
+
+func initLRUCacheNode(key, value int) *LRUCacheNode {
+	return &LRUCacheNode{key: key, value: value}
 }
 
 func Constructor(capacity int) LRUCache {
-	return LRUCache{
+	cache := LRUCache{
 		capacity: capacity,
 		ht:       make(map[int]*LRUCacheNode, capacity),
+		head:     initLRUCacheNode(0, 0), // A dummy head
+		tail:     initLRUCacheNode(0, 0), // A dummy tail
 	}
+	cache.head.next = cache.tail
+	cache.tail.prev = cache.head
+	return cache
 }
 
 func (this *LRUCache) Get(key int) int {
-	v, ok := this.ht[key]
-	if ok {
-		if v != this.head && v != this.tail {
-			// move `v` to head
-			v.pre.next, v.next.pre = v.next, v.pre
-
-			// make `v` as head
-			v.next = this.head
-			this.head.pre = v
-			this.head = v
-		} else if v != this.head {
-			// `v` is the tail.
-			this.tail = this.tail.pre
-			this.tail.next = nil
-
-			// make `v` as head
-			v.next = this.head
-			v.pre = nil
-			this.head.pre = v
-			this.head = this.head.pre
-		} else {
-			// if v is the head, do nothing.
-			// do nothing
-		}
-		return v.vale
+	if _, ok := this.ht[key]; !ok {
+		return -1
 	}
-	return -1
+	node := this.ht[key]
+	this.moveToHead(node)
+	return node.value
 }
 
 func (this *LRUCache) Put(key int, value int) {
-	if this.capacity < 1 {
-		return
-	}
-	v := this.Get(key)
-	if v != -1 {
-		// that means the key exists, then replace the key
-		this.ht[key].vale = value
-		return
-	}
-	newNode := &LRUCacheNode{key: key, vale: value}
-	this.ht[key] = newNode
-	if this.size == 0 {
-		// first element
-		this.head = newNode
-		this.tail = newNode
+	if _, ok := this.ht[key]; !ok {
+		node := initLRUCacheNode(key, value)
+		this.ht[key] = node
+		this.addToHead(node)
 		this.size++
-		return
-	}
-	newNode.next = this.head
-	this.head.pre = newNode
-	this.head = this.head.pre
-	this.size++
-
-	// pruning
-	if this.size > this.capacity {
-		delete(this.ht, this.tail.key)
-		this.tail = this.tail.pre
-		this.tail.next = nil
-		this.size--
+		if this.size > this.capacity {
+			removed := this.removeTail()
+			delete(this.ht, removed.key)
+			this.size--
+		}
+	} else {
+		node := this.ht[key]
+		node.value = value
+		this.moveToHead(node)
 	}
 }
 
 func (this *LRUCache) Size() int {
 	return this.size
+}
+
+func (this *LRUCache) addToHead(node *LRUCacheNode) {
+	node.prev = this.head
+	node.next = this.head.next
+	this.head.next.prev = node
+	this.head.next = node
+}
+
+func (this *LRUCache) removeNode(node *LRUCacheNode) {
+	node.prev.next = node.next
+	node.next.prev = node.prev
+}
+
+func (this *LRUCache) moveToHead(node *LRUCacheNode) {
+	this.removeNode(node)
+	this.addToHead(node)
+}
+
+func (this *LRUCache) removeTail() *LRUCacheNode {
+	node := this.tail.prev
+	this.removeNode(node)
+	return node
 }
 
 /**
