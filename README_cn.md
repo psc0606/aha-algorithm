@@ -18,6 +18,7 @@
 * ...
 
 ## 高级数据结构
+* [双向链表](src/list/double-linked-list.go)
 * [并查集](src/tree/disjoint-set.go)
 * [堆](src/heap/heap.go)
 * 跳跃表 (TODO)

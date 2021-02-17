@@ -19,6 +19,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * ...
 
 ## Advanced Structure
+* (Double Linked List)(src/list/double-linked-list.go)
 * [Disjoint Set (Union Find Set)](src/tree/disjoint-set.go)
 * [Heap](src/heap/heap.go)
 * SkipList (TODO)
