@@ -43,7 +43,7 @@
 * ...
 
 ## 缓存
-* LRU (TODO)
+* [最近最少使用缓存淘汰](src/cache/lru.go)
 * LRU with timestamp (TODO)
 * LFU (TODO)
 * W-TintyLFU (TODO)

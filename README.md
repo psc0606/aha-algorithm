@@ -43,7 +43,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * ...
 
 ## Cache
-* LRU (TODO)
+* [LRU cache](src/cache/lru.go)
 * LRU with timestamp (TODO)
 * LFU (TODO)
 * W-TintyLFU (TODO)
