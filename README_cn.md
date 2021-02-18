@@ -13,6 +13,9 @@
 
 ## 排序算法
 * [插入排序](src/sort/insert-sort.go)
+* [冒泡排序](src/sort/bubble-sort.go)
+* [选择排序](src/sort/select-sort.go)
+* [希尔排序](src/sort/shell-sort.go)
 * 快排
 * 归并排序
 * 堆排序

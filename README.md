@@ -13,6 +13,9 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 
 ## Sort Algorithm
 * [Insertion Sort](src/sort/insert-sort.go)
+* [Bubble Sort](src/sort/bubble-sort.go)
+* [Selection Sort](src/sort/select-sort.go)  
+* [Shell Sort](src/sort/shell-sort.go)
 * Quick Sort
 * Merge Sort
 * Heap Sort
