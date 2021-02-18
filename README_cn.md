@@ -12,6 +12,7 @@
 * 单模 Shift-And 算法
 
 ## 排序算法
+* [插入排序](src/sort/insert-sort.go)
 * 快排
 * 归并排序
 * 堆排序

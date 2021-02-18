@@ -12,6 +12,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * Shift-And Algorithm
 
 ## Sort Algorithm
+* [Insertion Sort](src/sort/insert-sort.go)
 * Quick Sort
 * Merge Sort
 * Heap Sort
