@@ -5,6 +5,7 @@ type MaxHeap struct {
 	arr []int
 }
 
+// Time complexity is O(nlogn), not O(n).
 // build a heap by array
 func (h *MaxHeap) buildHeap(arr []int) {
 	for _, e := range arr {
@@ -18,6 +19,7 @@ func (h *MaxHeap) IsEmpty() bool {
 }
 
 // return the number of elements in the heap.
+// Time: O(1)
 func (h *MaxHeap) Size() int {
 	return len(h.arr)
 }
