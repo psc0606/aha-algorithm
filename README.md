@@ -19,7 +19,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Quick Sort](src/sort/quick-sort.go)
 * [Merge Sort](src/sort/merge-sort.go)
 * Heap Sort
-* Counting Sort
+* [Counting Sort](src/sort/counting-sort.go)
 * Radix Sort
 * Bucket Sort
 * ...

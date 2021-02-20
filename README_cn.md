@@ -19,7 +19,7 @@
 * [快速排序](src/sort/quick-sort.go)
 * [归并排序](src/sort/merge-sort.go)
 * 堆排序
-* 计数排序
+* [计数排序](src/sort/counting-sort.go)
 * 基数排序
 * 桶排序
 * ...
