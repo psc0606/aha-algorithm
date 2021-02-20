@@ -19,6 +19,9 @@
 * [快速排序](src/sort/quick-sort.go)
 * [归并排序](src/sort/merge-sort.go)
 * 堆排序
+* 计数排序
+* 基数排序
+* 桶排序
 * ...
 
 ## 高级数据结构
@@ -26,6 +29,7 @@
 * [并查集](src/tree/disjoint-set.go)
 * [堆](src/heap/heap.go)
 * 跳跃表 (TODO)
+* 红黑树 (TODO)
 * [Trie树](src/tree/trie.go)
 * Double Array Tire (TODO)
 * B-树 (TODO)
@@ -33,7 +37,6 @@
 * 线段树 (TODO)
 * 三叉搜索树(Ternary Search Tree) (TODO)
 * 有限状态转换机(FST, Finite State Transducer) (TODO)
-* 红黑树 (TODO)
 * ...
 
 ## 地域结构
