@@ -17,7 +17,7 @@
 * [选择排序](src/sort/select-sort.go)
 * [希尔排序](src/sort/shell-sort.go)
 * [快速排序](src/sort/quick-sort.go)
-* 归并排序
+* [归并排序](src/sort/merge-sort.go)
 * 堆排序
 * ...
 
