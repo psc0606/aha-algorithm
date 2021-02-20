@@ -41,3 +41,33 @@ func partition(arr []interface{}, comparator func(a interface{}, b interface{}) 
 	arr[i], arr[end] = arr[end], arr[i]
 	return i // position of pivot
 }
+
+// Another partition implementation, less useless `swap` operation.
+func partition2(arr []interface{}, comparator func(a interface{}, b interface{}) int, start, end int) int {
+	rand.Seed(time.Now().UnixNano())
+	picked := rand.Int()%(end-start+1) + start
+	// random pick a element as pivot
+	// swap the pivot to the last element
+	pivot := arr[picked]
+	arr[picked], arr[end] = arr[end], arr[picked]
+
+	i, j := start, end
+	for i < j {
+		for i < j && comparator(arr[i], pivot) <= 0 {
+			i++
+		}
+		if i < j {
+			arr[j] = arr[i]
+			j--
+		}
+		for i < j && comparator(arr[j], pivot) >= 0 {
+			j--
+		}
+		if i < j {
+			arr[i] = arr[j]
+			i++
+		}
+	}
+	arr[i] = pivot
+	return i
+}
