@@ -67,6 +67,7 @@
 * [前k个高频元素](src/array/top-k-frequent-elements.go)
 * [单词拆分](src/string/word-break.go)
 * [树层序遍历](src/tree/binary-tree-level-order-traversal.go)
+* [旋转有序数组搜索](src/array/search-in-rotated-sorted-array.go)
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm?ref=badge_large)

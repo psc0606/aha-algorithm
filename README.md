@@ -67,6 +67,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Top-k frequent elements](src/array/top-k-frequent-elements.go)
 * [word break](src/string/word-break.go)
 * [Tree Level Traversal](src/tree/binary-tree-level-order-traversal.go)
+* [Search In Rotated Sorted Array](src/array/search-in-rotated-sorted-array.go)
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm?ref=badge_large)
