@@ -67,6 +67,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Top-k frequent elements](src/array/top-k-frequent-elements.go)
 * [word break](src/string/word-break.go)
 * [Tree Level Traversal](src/tree/binary-tree-level-order-traversal.go)
+* [Tree Inorder Traversal(non-recursive)](src/tree/binary-tree-inorder-traversal.go)  
 * [Search In Rotated Sorted Array](src/array/search-in-rotated-sorted-array.go)
 * [Flatten Binary Tree To Linked List](src/tree/flatten-binary-tree-to-linked-list.go)
 

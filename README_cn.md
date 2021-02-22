@@ -67,6 +67,7 @@
 * [前k个高频元素](src/array/top-k-frequent-elements.go)
 * [单词拆分](src/string/word-break.go)
 * [树层序遍历](src/tree/binary-tree-level-order-traversal.go)
+* [二叉树中序遍历(非递归)](src/tree/binary-tree-inorder-traversal.go)  
 * [旋转有序数组搜索](src/array/search-in-rotated-sorted-array.go)
 * [二叉树展开成单链表](src/tree/flatten-binary-tree-to-linked-list.go)
 
