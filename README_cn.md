@@ -70,6 +70,7 @@
 * [二叉树中序遍历(非递归)](src/tree/binary-tree-inorder-traversal.go)  
 * [旋转有序数组搜索](src/array/search-in-rotated-sorted-array.go)
 * [二叉树展开成单链表](src/tree/flatten-binary-tree-to-linked-list.go)
+* [最近公共祖先](src/tree/lowest-common-ancestor-of-a-binary-tree.go)
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm?ref=badge_large)
