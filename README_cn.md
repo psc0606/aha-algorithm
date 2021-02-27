@@ -73,6 +73,7 @@
 * [最近公共祖先](src/tree/lowest-common-ancestor-of-a-binary-tree.go)
 * [删除链表的倒数第N个结点](src/list/remove-nth-node-from-end-of-list.go)
 * [电话号码字母组合](src/backtrace/letter-combinations-of-a-phone-number.go)
+* [生成括号](src/backtrace/generate-parentheses.go)
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm?ref=badge_large)
