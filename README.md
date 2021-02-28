@@ -62,7 +62,8 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 
 ## Funny Problem
 * [Fibonacci Number](src/array/fibonacci_number.go)
-* [Task scheduler](src/optimalization/task-scheduler.go)  
+* [Task scheduler](src/optimalization/task-scheduler.go)
+* [Coin Change](src/optimalization/coin-change.go)  
 * [Unique binary search trees](src/tree/unique-binary-search-trees.go)
 * [Top-k frequent elements](src/array/top-k-frequent-elements.go)
 * [word break](src/string/word-break.go)

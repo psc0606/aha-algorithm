@@ -63,6 +63,7 @@
 ## 趣味算法
 * [斐波那契数列](src/array/fibonacci_number.go)
 * [任务调度](src/optimalization/task-scheduler.go)
+* [零钱兑换](src/optimalization/coin-change.go)  
 * [不同的二叉搜索树](src/tree/unique-binary-search-trees.go)
 * [前k个高频元素](src/array/top-k-frequent-elements.go)
 * [单词拆分](src/string/word-break.go)
