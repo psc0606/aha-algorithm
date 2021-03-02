@@ -61,22 +61,25 @@
 * [摩尔投票法](src/election/majority-element.go) - [论文链接](paper/A%20Fast%20Majority%20Vote%20Algorithm.pdf)
 
 ## 趣味算法
-* [斐波那契数列](src/array/fibonacci_number.go)
-* [任务调度](src/optimalization/task-scheduler.go)
-* [零钱兑换](src/optimalization/coin-change.go)
-* [跳跃游戏](src/optimalization/jump-game.go)
-* [不同的二叉搜索树](src/tree/unique-binary-search-trees.go)
-* [前k个高频元素](src/array/top-k-frequent-elements.go)
-* [单词拆分](src/string/word-break.go)
-* [树层序遍历](src/tree/binary-tree-level-order-traversal.go)
-* [二叉树中序遍历(非递归)](src/tree/binary-tree-inorder-traversal.go)  
-* [旋转有序数组搜索](src/array/search-in-rotated-sorted-array.go)
-* [二叉树展开成单链表](src/tree/flatten-binary-tree-to-linked-list.go)
-* [最近公共祖先](src/tree/lowest-common-ancestor-of-a-binary-tree.go)
-* [删除链表的倒数第N个结点](src/list/remove-nth-node-from-end-of-list.go)
-* [电话号码字母组合](src/backtrace/letter-combinations-of-a-phone-number.go)
-* [生成括号](src/backtrace/generate-parentheses.go)
-* [全排列](src/backtrace/permutations.go)
+**[E]** means **简单难度**, **[M]** means **中等难度**, **[H]** means **困难**.
+* [斐波那契数列](src/array/fibonacci_number.go) [E]
+* [两数之和](src/array/twosum.go) [E]
+* [三数之和](src/array/threesum.go) [M]
+* [任务调度](src/optimalization/task-scheduler.go) [M]
+* [零钱兑换](src/optimalization/coin-change.go) [M]
+* [跳跃游戏](src/optimalization/jump-game.go) [M]
+* [不同的二叉搜索树](src/tree/unique-binary-search-trees.go) [M]
+* [前k个高频元素](src/array/top-k-frequent-elements.go) [M]
+* [单词拆分](src/string/word-break.go) [M]
+* [树层序遍历](src/tree/binary-tree-level-order-traversal.go) [M]
+* [二叉树中序遍历(非递归)](src/tree/binary-tree-inorder-traversal.go) [M]  
+* [旋转有序数组搜索](src/array/search-in-rotated-sorted-array.go) [M]
+* [二叉树展开成单链表](src/tree/flatten-binary-tree-to-linked-list.go) [M]
+* [最近公共祖先](src/tree/lowest-common-ancestor-of-a-binary-tree.go) [M]
+* [删除链表的倒数第N个结点](src/list/remove-nth-node-from-end-of-list.go) [M]
+* [电话号码字母组合](src/backtrace/letter-combinations-of-a-phone-number.go) [M]
+* [生成括号](src/backtrace/generate-parentheses.go) [M]
+* [全排列](src/backtrace/permutations.go) [M]
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm?ref=badge_large)

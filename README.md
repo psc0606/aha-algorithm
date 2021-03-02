@@ -61,22 +61,25 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 *  [Boyer–Moore majority vote algorithm](src/election/majority-element.go) - [paper link](paper/A%20Fast%20Majority%20Vote%20Algorithm.pdf)
 
 ## Funny Problem
-* [Fibonacci Number](src/array/fibonacci_number.go)
-* [Task scheduler](src/optimalization/task-scheduler.go)
-* [Coin Change](src/optimalization/coin-change.go)  
-* [Jump Game](src/optimalization/jump-game.go)  
-* [Unique binary search trees](src/tree/unique-binary-search-trees.go)
-* [Top-k frequent elements](src/array/top-k-frequent-elements.go)
-* [word break](src/string/word-break.go)
-* [Tree Level Traversal](src/tree/binary-tree-level-order-traversal.go)
-* [Tree Inorder Traversal(non-recursive)](src/tree/binary-tree-inorder-traversal.go)  
-* [Search In Rotated Sorted Array](src/array/search-in-rotated-sorted-array.go)
-* [Flatten Binary Tree To Linked List](src/tree/flatten-binary-tree-to-linked-list.go)
-* [LCA](src/tree/lowest-common-ancestor-of-a-binary-tree.go)
-* [Remove n-th Node From End Of List](src/list/remove-nth-node-from-end-of-list.go)
-* [Letter Combinations Of A Phone Number](src/backtrace/letter-combinations-of-a-phone-number.go)
-* [Generate Parenthesis](src/backtrace/generate-parentheses.go)
-* [Permute](src/backtrace/permutations.go) 
+**[E]** means **EASY**, **[M]** means **MEDIUM**, **[H]** means **HARD**.
+* [Fibonacci Number](src/array/fibonacci_number.go) [E]
+* [Two Sum](src/array/twosum.go) [E]
+* [Three Sum](src/array/threesum.go) [M]
+* [Task scheduler](src/optimalization/task-scheduler.go) [M]
+* [Coin Change](src/optimalization/coin-change.go) [M]
+* [Jump Game](src/optimalization/jump-game.go) [M]
+* [Unique binary search trees](src/tree/unique-binary-search-trees.go) [M]
+* [Top-k frequent elements](src/array/top-k-frequent-elements.go) [M]
+* [word break](src/string/word-break.go) [M]
+* [Tree Level Traversal](src/tree/binary-tree-level-order-traversal.go) [M]
+* [Tree Inorder Traversal(non-recursive)](src/tree/binary-tree-inorder-traversal.go) [M]  
+* [Search In Rotated Sorted Array](src/array/search-in-rotated-sorted-array.go) [M]
+* [Flatten Binary Tree To Linked List](src/tree/flatten-binary-tree-to-linked-list.go) [M]
+* [LCA](src/tree/lowest-common-ancestor-of-a-binary-tree.go) [M]
+* [Remove n-th Node From End Of List](src/list/remove-nth-node-from-end-of-list.go) [M]
+* [Letter Combinations Of A Phone Number](src/backtrace/letter-combinations-of-a-phone-number.go) [M]
+* [Generate Parenthesis](src/backtrace/generate-parentheses.go) [M]
+* [Permute](src/backtrace/permutations.go) [M]
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm?ref=badge_large)
