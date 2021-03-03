@@ -65,6 +65,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Fibonacci Number](src/array/fibonacci_number.go) [E]
 * [Two Sum](src/array/twosum.go) [E]
 * [Three Sum](src/array/threesum.go) [M]
+* [Best Time To Buy And Sell Stock](src/optimalization/best-time-to-buy-and-sell-stock.go) [E]
 * [Task scheduler](src/optimalization/task-scheduler.go) [M]
 * [Coin Change](src/optimalization/coin-change.go) [M]
 * [Jump Game](src/optimalization/jump-game.go) [M]
