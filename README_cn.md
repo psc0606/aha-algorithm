@@ -82,6 +82,7 @@
 * [删除链表的倒数第N个结点](src/list/remove-nth-node-from-end-of-list.go) [M]
 * [环形链表 II](src/list/linked-list-cycle-ii.go) [M]
 * [电话号码字母组合](src/backtrace/letter-combinations-of-a-phone-number.go) [M]
+* [组合总和](src/backtrace/combination-sum.go) [M]  
 * [生成括号](src/backtrace/generate-parentheses.go) [M]
 * [全排列](src/backtrace/permutations.go) [M]
 

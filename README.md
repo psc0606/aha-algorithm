@@ -83,6 +83,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Linked List Cycle II](src/list/linked-list-cycle-ii.go) [M]
 * [Letter Combinations Of A Phone Number](src/backtrace/letter-combinations-of-a-phone-number.go) [M]
 * [Generate Parenthesis](src/backtrace/generate-parentheses.go) [M]
+* [Combination Sum](src/backtrace/combination-sum.go) [M]
 * [Permute](src/backtrace/permutations.go) [M]
 
 ## License

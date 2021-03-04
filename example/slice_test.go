@@ -88,3 +88,21 @@ func TestArrayAppend(t *testing.T) {
 	}
 	fmt.Println(arr)
 }
+
+func TestSliceCopy(t *testing.T) {
+	// method one
+	src := []int{1, 3, 4}
+	dst := make([]int, len(src))
+	copy(dst, src)
+	fmt.Println(dst)
+	dst = nil
+
+	// method two
+	dst = append([]int{}, src...)
+	fmt.Println(dst)
+	dst = nil
+
+	// method three
+	dst = append([]int(nil), src...)
+	fmt.Println(dst)
+}
