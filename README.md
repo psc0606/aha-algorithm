@@ -69,6 +69,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Task scheduler](src/optimalization/task-scheduler.go) [M]
 * [Coin Change](src/optimalization/coin-change.go) [M]
 * [Jump Game](src/optimalization/jump-game.go) [M]
+* [Maximum Product Subarray](src/optimalization/maximum-product-subarray.go) [M]
 * [Unique binary search trees](src/tree/unique-binary-search-trees.go) [M]
 * [Top-k frequent elements](src/array/top-k-frequent-elements.go) [M]
 * [word break](src/string/word-break.go) [M]

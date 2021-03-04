@@ -69,6 +69,7 @@
 * [任务调度](src/optimalization/task-scheduler.go) [M]
 * [零钱兑换](src/optimalization/coin-change.go) [M]
 * [跳跃游戏](src/optimalization/jump-game.go) [M]
+* [乘积最大子数组](src/optimalization/maximum-product-subarray.go) [M]  
 * [不同的二叉搜索树](src/tree/unique-binary-search-trees.go) [M]
 * [前k个高频元素](src/array/top-k-frequent-elements.go) [M]
 * [单词拆分](src/string/word-break.go) [M]
