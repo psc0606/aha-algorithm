@@ -74,6 +74,7 @@
 * [最佳买卖股票时机含冷冻期](src/optimalization/best-time-to-buy-and-sell-stock-with-cooldown.go) [M]  
 * [任务调度](src/optimalization/task-scheduler.go) [M]
 * [零钱兑换](src/optimalization/coin-change.go) [M]
+* [完全平方数](src/optimalization/perfect-squares.go) [M]
 * [跳跃游戏](src/optimalization/jump-game.go) [M]
 * [乘积最大子数组](src/optimalization/maximum-product-subarray.go) [M]  
 * [不同的二叉搜索树](src/tree/unique-binary-search-trees.go) [M]
