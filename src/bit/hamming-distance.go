@@ -17,3 +17,13 @@ func numberOfBit1(x int) int {
 	}
 	return count
 }
+
+// use a bit trick: n & (n-1)
+func numberOfBit1WithTrick(x int) int {
+	c := 0
+	for x > 0 {
+		c++
+		x &= x - 1
+	}
+	return c
+}

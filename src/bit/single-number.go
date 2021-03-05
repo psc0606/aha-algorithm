@@ -1,4 +1,4 @@
-package array
+package bit
 
 // https://leetcode-cn.com/problems/single-number/
 // Time: O(n)
