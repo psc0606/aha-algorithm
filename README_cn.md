@@ -28,15 +28,18 @@
 * [双向链表](src/list/double-linked-list.go)
 * [并查集](src/tree/disjoint-set.go)
 * [堆](src/heap/heap.go)
+* 树堆 (TODO)
 * 跳跃表 (TODO)
 * 红黑树 (TODO)
 * [Trie树](src/tree/trie.go)
 * Double Array Tire (TODO)
 * B-树 (TODO)
 * B+树 (TODO)
+* B*树 (TODO)  
 * 线段树 (TODO)
 * 三叉搜索树(Ternary Search Tree) (TODO)
 * 有限状态转换机(FST, Finite State Transducer) (TODO)
+* B* (Branch Star分支寻路算法) (TODO)
 * ...
 
 ## 地域结构

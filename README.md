@@ -28,15 +28,18 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * (Double Linked List)(src/list/double-linked-list.go)
 * [Disjoint Set (Union Find Set)](src/tree/disjoint-set.go)
 * [Heap](src/heap/heap.go)
+* Treap (TODO)
 * SkipList (TODO)
 * RB-Tree (TODO)
 * [Trie](src/tree/trie.go)
 * Double Array Tire (TODO)
 * B-Tree (TODO)
 * B+Tree (TODO)
+* B*Tree (TODO)
 * Segment Tree (TODO)
 * Ternary Search Tree (TODO)
 * FST (TODO)
+* B* (Branch Star) (TODO)
 * ...
 
 ## Geo
