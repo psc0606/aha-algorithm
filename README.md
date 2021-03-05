@@ -65,6 +65,8 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 
 ## Funny Problem
 **[E]** means **EASY**, **[M]** means **MEDIUM**, **[H]** means **HARD**.
+* [Hamming Distance](src/bit/hamming-distance.go) [E]
+* [Counting Bits](src/bit/counting-bits.go) [M]
 * [Fibonacci Number](src/array/fibonacci_number.go) [E]
 * [Two Sum](src/array/twosum.go) [E]
 * [Three Sum](src/array/threesum.go) [M]

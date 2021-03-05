@@ -65,6 +65,8 @@
 
 ## 趣味算法
 **[E]** means **简单难度**, **[M]** means **中等难度**, **[H]** means **困难**.
+* [汉明距离](src/bit/hamming-distance.go) [E]
+* [比特位计数](src/bit/counting-bits.go) [M]
 * [斐波那契数列](src/array/fibonacci_number.go) [E]
 * [两数之和](src/array/twosum.go) [E]
 * [三数之和](src/array/threesum.go) [M]
