@@ -78,6 +78,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Three Sum](src/array/threesum.go) [M]
 * [Top-k frequent elements](src/array/top-k-frequent-elements.go) [M]
 * [Search In Rotated Sorted Array](src/array/search-in-rotated-sorted-array.go) [M]
+* [Find The Duplicate Number](src/array/find-the-duplicate-number.go) [M]
 
 ---
 ### List

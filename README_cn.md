@@ -78,6 +78,7 @@
 * [三数之和](src/array/threesum.go) [M]
 * [前k个高频元素](src/array/top-k-frequent-elements.go) [M]
 * [旋转有序数组搜索](src/array/search-in-rotated-sorted-array.go) [M]
+* [寻找重复数](src/array/find-the-duplicate-number.go) [M]
 
 ---
 ### 列表
