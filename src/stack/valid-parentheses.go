@@ -1,6 +1,7 @@
-package string
+package stack
 
 // https://leetcode-cn.com/problems/valid-parentheses/
+// @see https://leetcode-cn.com/problems/decode-string/
 // First:
 // Time: O(n)
 // Space: O(n)

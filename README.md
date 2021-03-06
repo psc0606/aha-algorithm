@@ -65,28 +65,54 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 
 ## Funny Problem
 **[E]** means **EASY**, **[M]** means **MEDIUM**, **[H]** means **HARD**.
+
+---
+### Bits Operation
 * [Hamming Distance](src/bit/hamming-distance.go) [E]
 * [Counting Bits](src/bit/counting-bits.go) [M]
+
+---
+### Array
 * [Fibonacci Number](src/array/fibonacci_number.go) [E]
 * [Two Sum](src/array/twosum.go) [E]
 * [Three Sum](src/array/threesum.go) [M]
+* [Top-k frequent elements](src/array/top-k-frequent-elements.go) [M]
+* [Search In Rotated Sorted Array](src/array/search-in-rotated-sorted-array.go) [M]
+
+---
+### List
+* [Remove n-th Node From End Of List](src/list/remove-nth-node-from-end-of-list.go) [M]
+* [Linked List Cycle II](src/list/linked-list-cycle-ii.go) [M]
+
+---
+### Stack
+* [Valid Parentheses](src/stack/valid-parentheses.go) [E]
+* [Decode String](src/stack/decode-string.go) [M]
+
+---
+### Dynamic Programming And Greedy
 * [Best Time To Buy And Sell Stock](src/optimalization/best-time-to-buy-and-sell-stock.go) [E]
 * [Best Time To Buy And Sell Stock With Cool Down](src/optimalization/best-time-to-buy-and-sell-stock-with-cooldown.go) [M]  
 * [Task scheduler](src/optimalization/task-scheduler.go) [M]
-* [Coin Change](src/optimalization/coin-change.go) [M]
-* [Perfect Squares](src/optimalization/perfect-squares.go) [M]
 * [Jump Game](src/optimalization/jump-game.go) [M]
 * [Maximum Product Subarray](src/optimalization/maximum-product-subarray.go) [M]
-* [Unique binary search trees](src/tree/unique-binary-search-trees.go) [M]
-* [Top-k frequent elements](src/array/top-k-frequent-elements.go) [M]
 * [word break](src/string/word-break.go) [M]
+
+---
+#### Knapsack problem
+* [Coin Change](src/optimalization/coin-change.go) [M]
+* [Perfect Squares](src/optimalization/perfect-squares.go) [M]
+
+---
+### Tree
+* [Unique binary search trees](src/tree/unique-binary-search-trees.go) [M]
 * [Tree Level Traversal](src/tree/binary-tree-level-order-traversal.go) [M]
-* [Tree Inorder Traversal(non-recursive)](src/tree/binary-tree-inorder-traversal.go) [M]  
-* [Search In Rotated Sorted Array](src/array/search-in-rotated-sorted-array.go) [M]
+* [Tree Inorder Traversal(non-recursive)](src/tree/binary-tree-inorder-traversal.go) [M]
 * [Flatten Binary Tree To Linked List](src/tree/flatten-binary-tree-to-linked-list.go) [M]
 * [LCA](src/tree/lowest-common-ancestor-of-a-binary-tree.go) [M]
-* [Remove n-th Node From End Of List](src/list/remove-nth-node-from-end-of-list.go) [M]
-* [Linked List Cycle II](src/list/linked-list-cycle-ii.go) [M]
+
+---
+### Backtrace
 * [Letter Combinations Of A Phone Number](src/backtrace/letter-combinations-of-a-phone-number.go) [M]
 * [Generate Parenthesis](src/backtrace/generate-parentheses.go) [M]
 * [Combination Sum](src/backtrace/combination-sum.go) [M]

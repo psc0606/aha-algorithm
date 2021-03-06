@@ -65,28 +65,54 @@
 
 ## 趣味算法
 **[E]** means **简单难度**, **[M]** means **中等难度**, **[H]** means **困难**.
+
+---
+### 位操作
 * [汉明距离](src/bit/hamming-distance.go) [E]
 * [比特位计数](src/bit/counting-bits.go) [M]
+
+---
+### 数组
 * [斐波那契数列](src/array/fibonacci_number.go) [E]
 * [两数之和](src/array/twosum.go) [E]
 * [三数之和](src/array/threesum.go) [M]
+* [前k个高频元素](src/array/top-k-frequent-elements.go) [M]
+* [旋转有序数组搜索](src/array/search-in-rotated-sorted-array.go) [M]
+
+---
+### 列表
+* [删除链表的倒数第N个结点](src/list/remove-nth-node-from-end-of-list.go) [M]
+* [环形链表 II](src/list/linked-list-cycle-ii.go) [M]
+
+---
+### 栈
+* [有效的括号](src/stack/valid-parentheses.go) [E]
+* [字符串解码](src/stack/decode-string.go) [M]
+
+---
+### 动态规划和贪心
 * [买卖股票的最佳时机](src/optimalization/best-time-to-buy-and-sell-stock.go) [E]
 * [最佳买卖股票时机含冷冻期](src/optimalization/best-time-to-buy-and-sell-stock-with-cooldown.go) [M]  
 * [任务调度](src/optimalization/task-scheduler.go) [M]
+* [跳跃游戏](src/optimalization/jump-game.go) [M]
+* [乘积最大子数组](src/optimalization/maximum-product-subarray.go) [M]
+* [单词拆分](src/string/word-break.go) [M]
+
+---
+#### 背包问题
 * [零钱兑换](src/optimalization/coin-change.go) [M]
 * [完全平方数](src/optimalization/perfect-squares.go) [M]
-* [跳跃游戏](src/optimalization/jump-game.go) [M]
-* [乘积最大子数组](src/optimalization/maximum-product-subarray.go) [M]  
+  
+---
+### 树
 * [不同的二叉搜索树](src/tree/unique-binary-search-trees.go) [M]
-* [前k个高频元素](src/array/top-k-frequent-elements.go) [M]
-* [单词拆分](src/string/word-break.go) [M]
 * [树层序遍历](src/tree/binary-tree-level-order-traversal.go) [M]
-* [二叉树中序遍历(非递归)](src/tree/binary-tree-inorder-traversal.go) [M]  
-* [旋转有序数组搜索](src/array/search-in-rotated-sorted-array.go) [M]
+* [二叉树中序遍历(非递归)](src/tree/binary-tree-inorder-traversal.go) [M]
 * [二叉树展开成单链表](src/tree/flatten-binary-tree-to-linked-list.go) [M]
 * [最近公共祖先](src/tree/lowest-common-ancestor-of-a-binary-tree.go) [M]
-* [删除链表的倒数第N个结点](src/list/remove-nth-node-from-end-of-list.go) [M]
-* [环形链表 II](src/list/linked-list-cycle-ii.go) [M]
+
+---
+### 回溯
 * [电话号码字母组合](src/backtrace/letter-combinations-of-a-phone-number.go) [M]
 * [组合总和](src/backtrace/combination-sum.go) [M]  
 * [生成括号](src/backtrace/generate-parentheses.go) [M]

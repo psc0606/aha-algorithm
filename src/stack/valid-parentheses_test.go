@@ -1,6 +1,8 @@
-package string
+package stack
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestIsValid(t *testing.T) {
 	result := isValid("()")
