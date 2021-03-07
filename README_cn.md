@@ -92,6 +92,7 @@
 * [删除链表的倒数第N个结点](src/list/remove-nth-node-from-end-of-list.go) [M]
 * [环形链表](src/list/linked-list-cycle.go) [E] [I]
 * [环形链表 II](src/list/linked-list-cycle-ii.go) [M]
+* [两两交换链表中的节点](src/list/swap-nodes-in-pairs.go) [M] [I]
 
 ---
 ### 栈

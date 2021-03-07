@@ -92,6 +92,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Remove n-th Node From End Of List](src/list/remove-nth-node-from-end-of-list.go) [M]
 * [Linked List Cycle](src/list/linked-list-cycle.go) [E] [I]
 * [Linked List Cycle II](src/list/linked-list-cycle-ii.go) [M] [I]
+* [Swap Nodes In Pairs](src/list/swap-nodes-in-pairs.go) [M] [I]
 
 ---
 ### Stack
