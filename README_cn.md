@@ -74,9 +74,10 @@
 ---
 ### 数组
 * [删除排序数组中的重复项](src/array/remove_duplicates.go) [E] [I]
+* [移动零](src/array/move-zero.go) [E] [I]
 * [斐波那契数列](src/array/fibonacci_number.go) [E]
-* [两数之和](src/array/twosum.go) [E]
-* [三数之和](src/array/threesum.go) [M]
+* [两数之和](src/array/twosum.go) [E] [I]
+* [三数之和](src/array/threesum.go) [M] [I]
 * [前k个高频元素](src/array/top-k-frequent-elements.go) [M]
 * [旋转有序数组搜索](src/array/search-in-rotated-sorted-array.go) [M]
 * [寻找重复数](src/array/find-the-duplicate-number.go) [M]
@@ -84,16 +85,19 @@
 
 ---
 ### 列表
+* [合并两个有序数组](src/list/merge-two-sorted-lists.go) [M] [I]
 * [删除链表的倒数第N个结点](src/list/remove-nth-node-from-end-of-list.go) [M]
 * [环形链表 II](src/list/linked-list-cycle-ii.go) [M]
 
 ---
 ### 栈
-* [有效的括号](src/stack/valid-parentheses.go) [E]
+* [最小栈](src/stack/min-stack.go) [E] [I]
+* [有效的括号](src/stack/valid-parentheses.go) [E] [I]
 * [字符串解码](src/stack/decode-string.go) [M]
 
 ---
 ### 动态规划和贪心
+* [爬楼梯](src/optimalization/climbing-stairs.go) [E] [I]
 * [买卖股票的最佳时机](src/optimalization/best-time-to-buy-and-sell-stock.go) [E]
 * [最佳买卖股票时机含冷冻期](src/optimalization/best-time-to-buy-and-sell-stock-with-cooldown.go) [M]  
 * [任务调度](src/optimalization/task-scheduler.go) [M]

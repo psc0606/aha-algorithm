@@ -41,6 +41,7 @@ func moveZeroes2(nums []int) {
 			j++
 		}
 	}
+	// DO NOT FORGET THIS
 	for j < len(nums) {
 		nums[j] = 0
 		j++

@@ -74,9 +74,10 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 ---
 ### Array
 * [Remove Duplicates From Sorted Array](src/array/remove_duplicates.go) [E] [I]
+* [Move Zero](src/array/move-zero.go) [E] [I]
 * [Fibonacci Number](src/array/fibonacci_number.go) [E]
-* [Two Sum](src/array/twosum.go) [E]
-* [Three Sum](src/array/threesum.go) [M]
+* [Two Sum](src/array/twosum.go) [E] [I]
+* [Three Sum](src/array/threesum.go) [M] [I]
 * [Top-k frequent elements](src/array/top-k-frequent-elements.go) [M]
 * [Search In Rotated Sorted Array](src/array/search-in-rotated-sorted-array.go) [M]
 * [Find The Duplicate Number](src/array/find-the-duplicate-number.go) [M]
@@ -84,16 +85,19 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 
 ---
 ### List
+* [Merge Two Sorted Lists](src/list/merge-two-sorted-lists.go) [M] [I]
 * [Remove n-th Node From End Of List](src/list/remove-nth-node-from-end-of-list.go) [M]
 * [Linked List Cycle II](src/list/linked-list-cycle-ii.go) [M]
 
 ---
 ### Stack
-* [Valid Parentheses](src/stack/valid-parentheses.go) [E]
+* [Minimum Stack](src/stack/min-stack.go) [E] [I]
+* [Valid Parentheses](src/stack/valid-parentheses.go) [E] [I]
 * [Decode String](src/stack/decode-string.go) [M]
 
 ---
 ### Dynamic Programming And Greedy
+* [Climbing Stairs](src/optimalization/climbing-stairs.go) [E] [I]
 * [Best Time To Buy And Sell Stock](src/optimalization/best-time-to-buy-and-sell-stock.go) [E]
 * [Best Time To Buy And Sell Stock With Cool Down](src/optimalization/best-time-to-buy-and-sell-stock-with-cooldown.go) [M]  
 * [Task scheduler](src/optimalization/task-scheduler.go) [M]
@@ -110,14 +114,14 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 ### Tree
 * [Unique binary search trees](src/tree/unique-binary-search-trees.go) [M]
 * [Tree Level Traversal](src/tree/binary-tree-level-order-traversal.go) [M]
-* [Tree Inorder Traversal(non-recursive)](src/tree/binary-tree-inorder-traversal.go) [M]
+* [Tree Inorder Traversal(non-recursive)](src/tree/binary-tree-inorder-traversal.go) [M] [I]
 * [Flatten Binary Tree To Linked List](src/tree/flatten-binary-tree-to-linked-list.go) [M]
 * [LCA](src/tree/lowest-common-ancestor-of-a-binary-tree.go) [M]
 
 ---
 ### Backtrace
 * [Letter Combinations Of A Phone Number](src/backtrace/letter-combinations-of-a-phone-number.go) [M]
-* [Generate Parenthesis](src/backtrace/generate-parentheses.go) [M]
+* [Generate Parenthesis](src/backtrace/generate-parentheses.go) [M] [I]
 * [Combination Sum](src/backtrace/combination-sum.go) [M]
 * [Permute](src/backtrace/permutations.go) [M]
 
