@@ -84,6 +84,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Search In Rotated Sorted Array](src/array/search-in-rotated-sorted-array.go) [M]
 * [Find The Duplicate Number](src/array/find-the-duplicate-number.go) [M]
 * [Container With Most Water](src/array/container-with-most-water.go) [M] [I]
+* [Rotate Array](src/array/rotate-array.go) [M] [I]
 
 ---
 ### List

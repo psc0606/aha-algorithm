@@ -84,6 +84,7 @@
 * [旋转有序数组搜索](src/array/search-in-rotated-sorted-array.go) [M]
 * [寻找重复数](src/array/find-the-duplicate-number.go) [M]
 * [盛水最多的容器](src/array/container-with-most-water.go) [M] [I]
+* [旋转数组](src/array/rotate-array.go) [M] [I]
 
 ---
 ### 列表
