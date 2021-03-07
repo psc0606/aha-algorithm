@@ -41,3 +41,10 @@ func TestIntToString(t *testing.T) {
 	str := strconv.Itoa(343)
 	fmt.Println(str)
 }
+
+func TestStringToByteArray(t *testing.T) {
+	chars := []byte("golang") // string to byte array
+	fmt.Println(chars)
+	str := string(chars) // byte array to string
+	fmt.Println(str)
+}

@@ -85,6 +85,7 @@
 * [寻找重复数](src/array/find-the-duplicate-number.go) [M]
 * [盛水最多的容器](src/array/container-with-most-water.go) [M] [I]
 * [旋转数组](src/array/rotate-array.go) [M] [I]
+* [字母异位词分组](src/array/group-anagrams.go) [M] [I]
 
 ---
 ### 列表
