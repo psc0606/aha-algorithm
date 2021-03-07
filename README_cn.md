@@ -75,6 +75,7 @@
 ### 数组
 * [删除排序数组中的重复项](src/array/remove_duplicates.go) [E] [I]
 * [移动零](src/array/move-zero.go) [E] [I]
+* [加一](src/array/plus-one.go) [E] [I]  
 * [斐波那契数列](src/array/fibonacci_number.go) [E]
 * [两数之和](src/array/twosum.go) [E] [I]
 * [三数之和](src/array/threesum.go) [M] [I]

@@ -75,6 +75,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 ### Array
 * [Remove Duplicates From Sorted Array](src/array/remove_duplicates.go) [E] [I]
 * [Move Zero](src/array/move-zero.go) [E] [I]
+* [Plus One](src/array/plus-one.go) [E] [I]
 * [Fibonacci Number](src/array/fibonacci_number.go) [E]
 * [Two Sum](src/array/twosum.go) [E] [I]
 * [Three Sum](src/array/threesum.go) [M] [I]
