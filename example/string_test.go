@@ -21,7 +21,9 @@ func TestString(t *testing.T) {
 func TestByte2String(t *testing.T) {
 	fmt.Println(string(rune(48))) // ascii(48)=0
 	fmt.Println(string(rune(97))) // ascii(97)=a
-	fmt.Println(int('a'))         // int of 'a'
+	fmt.Println(int('a'))         // ascii('a')=97
+	fmt.Println(int('7'))         // ascii('7')=55
+	fmt.Println(int('我'))         // unicode('我')=U+6211=25105
 
 	// same ascii int to char
 	var a rune = 'a'
