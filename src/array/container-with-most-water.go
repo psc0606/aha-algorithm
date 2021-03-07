@@ -1,4 +1,4 @@
-package optimalization
+package array
 
 // https://leetcode-cn.com/problems/container-with-most-water/
 // dynamic programming, but it has a better solution.
@@ -21,7 +21,7 @@ func maxArea(height []int) int {
 	return dp[n-1]
 }
 
-// Solution2: double pointer, then dynamic programming
+// Solution2: double pointer
 // Time: O(n)
 func maxArea2(height []int) int {
 	n := len(height)
@@ -36,4 +36,11 @@ func maxArea2(height []int) int {
 		}
 	}
 	return maximum
+}
+
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
 }

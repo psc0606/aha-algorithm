@@ -64,7 +64,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 *  [Boyer–Moore majority vote algorithm](src/election/majority-element.go) - [paper link](paper/A%20Fast%20Majority%20Vote%20Algorithm.pdf)
 
 ## Funny Problem
-**[E]** means **EASY**, **[M]** means **MEDIUM**, **[H]** means **HARD**.
+**[E]** means **EASY**, **[M]** means **MEDIUM**, **[H]** means **HARD**, **[I]** means **INTERVIEW**
 
 ---
 ### Bits Operation
@@ -73,12 +73,14 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 
 ---
 ### Array
+* [Remove Duplicates From Sorted Array](src/array/remove_duplicates.go) [E] [I]
 * [Fibonacci Number](src/array/fibonacci_number.go) [E]
 * [Two Sum](src/array/twosum.go) [E]
 * [Three Sum](src/array/threesum.go) [M]
 * [Top-k frequent elements](src/array/top-k-frequent-elements.go) [M]
 * [Search In Rotated Sorted Array](src/array/search-in-rotated-sorted-array.go) [M]
 * [Find The Duplicate Number](src/array/find-the-duplicate-number.go) [M]
+* [Container With Most Water](src/array/container-with-most-water.go) [M] [I]
 
 ---
 ### List
