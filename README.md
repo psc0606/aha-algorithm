@@ -131,6 +131,11 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Generate Parenthesis](src/backtrace/generate-parentheses.go) [M] [I]
 * [Combination Sum](src/backtrace/combination-sum.go) [M]
 * [Permute](src/backtrace/permutations.go) [M]
+* [Number of Islands](src/backtrace/number-of-islands.go) [M]
+
+### Disjoint Set (Union Find Set)
+* [Accounts merge](src/tree/accounts-merge.go) [M]
+* [Number of Islands](src/backtrace/number-of-islands.go) [M]
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm?ref=badge_large)

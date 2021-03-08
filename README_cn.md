@@ -131,6 +131,11 @@
 * [组合总和](src/backtrace/combination-sum.go) [M]  
 * [生成括号](src/backtrace/generate-parentheses.go) [M]
 * [全排列](src/backtrace/permutations.go) [M]
+* [岛屿数量](src/backtrace/number-of-islands.go) [M]
+
+### Disjoint Set (Union Find Set)
+* [账号合并](src/tree/accounts-merge.go) [M]
+* [岛屿数量](src/backtrace/number-of-islands.go) [M]
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm?ref=badge_large)

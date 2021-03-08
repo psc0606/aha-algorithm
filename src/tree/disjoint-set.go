@@ -10,6 +10,8 @@ type DisjointSet struct {
 	father []int
 	// rank[x] means the depth or level of the element node.
 	rank []int
+	// the different set of union set
+	cnt int
 }
 
 // Initialize n node without any edges.
@@ -17,6 +19,7 @@ func (d *DisjointSet) Init(n int) {
 	d.n = n
 	d.father = make([]int, n)
 	d.rank = make([]int, n)
+	d.cnt = n
 }
 
 func (d *DisjointSet) MakeSet(x int) {
@@ -55,6 +58,7 @@ func (d *DisjointSet) Union(x int, y int) {
 	// root parent of y
 	py := d.Find(y)
 	if px != py {
+		d.cnt--
 		// how to determine x is parent of y, or y is parent of x ?
 		// which is better?
 		// d.father[px] = py
@@ -69,4 +73,9 @@ func (d *DisjointSet) Union(x int, y int) {
 			}
 		}
 	}
+}
+
+// Get the different root of disjoint set
+func (d *DisjointSet) Count() int {
+	return d.cnt
 }
