@@ -71,6 +71,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 ### Bits Operation
 * [Hamming Distance](src/bit/hamming-distance.go) [E]
 * [Counting Bits](src/bit/counting-bits.go) [M]
+* [Subsets](src/backtrace/subsets.go) [M]
 
 ---
 ### Array
@@ -132,6 +133,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Combination Sum](src/backtrace/combination-sum.go) [M]
 * [Permute](src/backtrace/permutations.go) [M]
 * [Number of Islands](src/backtrace/number-of-islands.go) [M]
+* [Subsets](src/backtrace/subsets.go) [M]
 
 ### Disjoint Set (Union Find Set)
 * [Accounts merge](src/tree/accounts-merge.go) [M]

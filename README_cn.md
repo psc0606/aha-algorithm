@@ -71,6 +71,7 @@
 ### 位操作
 * [汉明距离](src/bit/hamming-distance.go) [E]
 * [比特位计数](src/bit/counting-bits.go) [M]
+* [子集](src/backtrace/subsets.go) [M]
 
 ---
 ### 数组
@@ -132,6 +133,7 @@
 * [生成括号](src/backtrace/generate-parentheses.go) [M]
 * [全排列](src/backtrace/permutations.go) [M]
 * [岛屿数量](src/backtrace/number-of-islands.go) [M]
+* [子集](src/backtrace/subsets.go) [M]
 
 ### Disjoint Set (Union Find Set)
 * [账号合并](src/tree/accounts-merge.go) [M]
