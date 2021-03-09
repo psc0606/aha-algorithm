@@ -88,6 +88,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Container With Most Water](src/array/container-with-most-water.go) [M] [I]
 * [Rotate Array](src/array/rotate-array.go) [M] [I]
 * [Group Anagrams](src/array/group-anagrams.go) [M] [I]
+* [K-th Largest Element In An Array](src/array/kth-largest-element-in-an-array.go) [M] [I]
 
 ---
 ### List
