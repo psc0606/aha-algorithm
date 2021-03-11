@@ -89,6 +89,7 @@
 * [旋转数组](src/array/rotate-array.go) [M] [I]
 * [字母异位词分组](src/array/group-anagrams.go) [M] [I]
 * [数组中的第K个最大元素](src/array/kth-largest-element-in-an-array.go) [M] [I]
+* [滑动窗口中最大值](src/array/sliding-window-maximum.go) [M] [I]
 
 ---
 ### 列表
@@ -104,6 +105,10 @@
 * [最小栈](src/stack/min-stack.go) [E] [I]
 * [有效的括号](src/stack/valid-parentheses.go) [E] [I]
 * [字符串解码](src/stack/decode-string.go) [M]
+
+---
+### 队列
+* [滑动窗口中最大值](src/array/sliding-window-maximum.go) [M] [I]
 
 ---
 ### 动态规划和贪心

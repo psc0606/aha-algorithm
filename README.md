@@ -89,6 +89,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Rotate Array](src/array/rotate-array.go) [M] [I]
 * [Group Anagrams](src/array/group-anagrams.go) [M] [I]
 * [K-th Largest Element In An Array](src/array/kth-largest-element-in-an-array.go) [M] [I]
+* [Sliding Window Maximum](src/array/sliding-window-maximum.go) [M] [I]
 
 ---
 ### List
@@ -104,6 +105,10 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Minimum Stack](src/stack/min-stack.go) [E] [I]
 * [Valid Parentheses](src/stack/valid-parentheses.go) [E] [I]
 * [Decode String](src/stack/decode-string.go) [M]
+
+---
+### Queue
+* [Sliding Window Maximum](src/array/sliding-window-maximum.go) [M] [I]
 
 ---
 ### Dynamic Programming And Greedy
