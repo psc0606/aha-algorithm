@@ -109,6 +109,7 @@
 ---
 ### 队列
 * [滑动窗口中最大值](src/array/sliding-window-maximum.go) [M] [I]
+* [设计双端循环队列](src/queue/design-circular-deque.go) [M]
 
 ---
 ### 动态规划和贪心

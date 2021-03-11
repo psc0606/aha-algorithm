@@ -109,6 +109,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 ---
 ### Queue
 * [Sliding Window Maximum](src/array/sliding-window-maximum.go) [M] [I]
+* [Design Circular Dequeue](src/queue/design-circular-deque.go) [M]
 
 ---
 ### Dynamic Programming And Greedy
