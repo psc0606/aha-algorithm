@@ -44,3 +44,23 @@ func TestReverseList(t *testing.T) {
 		t.Errorf("expected tail [%d]=[%d]", tail.Val, 2)
 	}
 }
+
+func TestReverseListRecursively(t *testing.T) {
+	head := BuildList([]int{1})
+	actual, expected := reverseListRecursively(head), BuildList([]int{1})
+	if !TestListEqual(expected, actual) {
+		t.Errorf("expected is [%v], actual is [%v]", expected, actual)
+	}
+
+	head = BuildList([]int{1, 2})
+	actual, expected = reverseListRecursively(head), BuildList([]int{2, 1})
+	if !TestListEqual(expected, actual) {
+		t.Errorf("expected is [%v], actual is [%v]", expected, actual)
+	}
+
+	head = BuildList([]int{1, 2, 3})
+	actual, expected = reverseListRecursively(head), BuildList([]int{3, 2, 1})
+	if !TestListEqual(expected, actual) {
+		t.Errorf("expected is [%v], actual is [%v]", expected, actual)
+	}
+}

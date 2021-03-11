@@ -92,6 +92,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 
 ---
 ### List
+* [Reverse List](src/list/reverselist.go) [E] [I]
 * [Merge Two Sorted Lists](src/list/merge-two-sorted-lists.go) [M] [I]
 * [Remove n-th Node From End Of List](src/list/remove-nth-node-from-end-of-list.go) [M]
 * [Linked List Cycle](src/list/linked-list-cycle.go) [E] [I]

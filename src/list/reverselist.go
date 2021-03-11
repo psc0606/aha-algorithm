@@ -24,3 +24,21 @@ func reverseList(head *ListNode) *ListNode {
 		q = next
 	}
 }
+
+func reverseListRecursively(head *ListNode) *ListNode {
+	if head == nil {
+		return head
+	}
+	// return sublist head only
+	// the tail of sublist is head.Next
+	p := reverseListRecursively(head.Next)
+	// If sublist is nil, set current node to the head.
+	if p == nil {
+		p = head
+	}
+	if head.Next != nil {
+		head.Next.Next = head
+		head.Next = nil
+	}
+	return p
+}
