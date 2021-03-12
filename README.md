@@ -147,5 +147,8 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Accounts merge](src/tree/accounts-merge.go) [M]
 * [Number of Islands](src/backtrace/number-of-islands.go) [M]
 
+### Math
+* [Pow x^n](src/math/powx-n.go) [M] [I]
+
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm?ref=badge_large)

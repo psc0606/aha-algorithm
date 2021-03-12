@@ -147,5 +147,8 @@
 * [账号合并](src/tree/accounts-merge.go) [M]
 * [岛屿数量](src/backtrace/number-of-islands.go) [M]
 
+### Math
+* [x^n](src/math/powx-n.go) [M] [I]
+
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpsc0606%2Faha-algorithm?ref=badge_large)
