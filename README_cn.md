@@ -69,6 +69,7 @@
 
 ---
 ### 位操作
+* [2的幂](src/bit/power-of-two.go) [E]
 * [汉明距离](src/bit/hamming-distance.go) [E]
 * [比特位计数](src/bit/counting-bits.go) [M]
 * [子集](src/backtrace/subsets.go) [M]

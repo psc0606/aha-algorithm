@@ -69,6 +69,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 
 ---
 ### Bits Operation
+* [Power Of Two](src/bit/power-of-two.go) [E]
 * [Hamming Distance](src/bit/hamming-distance.go) [E]
 * [Counting Bits](src/bit/counting-bits.go) [M]
 * [Subsets](src/backtrace/subsets.go) [M]
