@@ -129,6 +129,9 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 
 ---
 ### Tree
+* [Minimum Depth Of Binary Tree](src/tree/minimum-depth-of-binary-tree.go) [E]
+* [Maximum Depth Of Binary Tree](src/tree/maximum-depth-of-binary-tree.go) [E]
+* [Validate Binary Search Tree](src/tree/validate-binary-search-tree.go) [M]
 * [Unique binary search trees](src/tree/unique-binary-search-trees.go) [M]
 * [Tree Level Traversal](src/tree/binary-tree-level-order-traversal.go) [M]
 * [Tree Inorder Traversal(non-recursive)](src/tree/binary-tree-inorder-traversal.go) [M] [I]
