@@ -134,6 +134,7 @@
 * [验证二叉搜索树](src/tree/validate-binary-search-tree.go) [M]
 * [不同的二叉搜索树](src/tree/unique-binary-search-trees.go) [M]
 * [树层序遍历](src/tree/binary-tree-level-order-traversal.go) [M]
+* [二叉树先序遍历(非递归)](src/tree/binary-tree-inorder-traversal.go) [M]
 * [二叉树中序遍历(非递归)](src/tree/binary-tree-inorder-traversal.go) [M]
 * [二叉树展开成单链表](src/tree/flatten-binary-tree-to-linked-list.go) [M]
 * [最近公共祖先](src/tree/lowest-common-ancestor-of-a-binary-tree.go) [M]

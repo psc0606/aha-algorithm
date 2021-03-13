@@ -135,6 +135,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Unique binary search trees](src/tree/unique-binary-search-trees.go) [M]
 * [Tree Level Traversal](src/tree/binary-tree-level-order-traversal.go) [M]
 * [Tree Inorder Traversal(non-recursive)](src/tree/binary-tree-inorder-traversal.go) [M] [I]
+* [Tree Preorder Traversal](src/tree/binary-tree-inorder-traversal.go) [M]  
 * [Flatten Binary Tree To Linked List](src/tree/flatten-binary-tree-to-linked-list.go) [M]
 * [LCA](src/tree/lowest-common-ancestor-of-a-binary-tree.go) [M]
 
