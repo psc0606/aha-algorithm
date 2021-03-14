@@ -2,10 +2,17 @@ package tree
 
 import "errors"
 
+// binary tree node
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
 	Right *TreeNode
+}
+
+// N-tree node
+type Node struct {
+	Val      int
+	Children []*Node
 }
 
 // Build a tree from array, if the given array cannot be construct to a tree, it will give an error.
