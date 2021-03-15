@@ -139,6 +139,7 @@
 * [二叉树中序遍历(非递归)](src/tree/binary-tree-inorder-traversal.go) [M]
 * [N叉树的层序遍历](src/tree/n-ary-tree-level-order-traversal.go) [M]
 * [N叉树的前序遍历](src/tree/n-ary-tree-preorder-traversal.go) [M]
+* [N叉树的后序遍历](src/tree/n-ary-tree-postorder-traversal.go) [M]
 * [二叉树展开成单链表](src/tree/flatten-binary-tree-to-linked-list.go) [M]
 * [最近公共祖先](src/tree/lowest-common-ancestor-of-a-binary-tree.go) [M]
 * [二叉搜索树中第K小的元素](src/tree/kth-smallest-element-in-a-bst.go) [M] [I]
