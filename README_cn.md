@@ -93,7 +93,7 @@
 * [滑动窗口中最大值](src/array/sliding-window-maximum.go) [M] [I]
 
 ---
-### 列表
+### 链表
 * [反转链表](src/list/reverselist.go) [E] [I]
 * [合并两个有序数组](src/list/merge-two-sorted-lists.go) [M] [I]
 * [删除链表的倒数第N个结点](src/list/remove-nth-node-from-end-of-list.go) [M]
