@@ -119,6 +119,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Best Time To Buy And Sell Stock With Cool Down](src/optimalization/best-time-to-buy-and-sell-stock-with-cooldown.go) [M]  
 * [Task scheduler](src/optimalization/task-scheduler.go) [M]
 * [Jump Game](src/optimalization/jump-game.go) [M]
+* [Maximum Subarray](src/optimalization/maximum-subarray.go) [E] [I]  
 * [Maximum Product Subarray](src/optimalization/maximum-product-subarray.go) [M]
 * [word break](src/string/word-break.go) [M]
 

@@ -16,4 +16,11 @@ func TestMajorityElement(t *testing.T) {
 	if res != expected {
 		t.Errorf("expected is [%d], actual is [%d]", expected, res)
 	}
+
+	nums = []int{1, 2, 3, 2, 2, 2, 5, 4, 2}
+	res = majorityElement(nums)
+	expected = 2
+	if res != expected {
+		t.Errorf("expected is [%d], actual is [%d]", expected, res)
+	}
 }
