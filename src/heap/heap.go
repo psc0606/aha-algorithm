@@ -56,9 +56,6 @@ func (h *MaxHeap) shiftDown(index int) {
 	if h.arr[index] < h.arr[indexOfMaxChild] {
 		swap(h.arr, index, indexOfMaxChild)
 		h.shiftDown(indexOfMaxChild)
-	} else if h.arr[index] < h.arr[indexOfMaxChild] {
-		swap(h.arr, index, indexOfMaxChild)
-		h.shiftDown(indexOfMaxChild)
 	} else {
 		return
 	}
