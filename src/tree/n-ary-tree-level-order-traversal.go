@@ -9,7 +9,7 @@ func nTreeLevelOrder(root *Node) [][]int {
 	var ret [][]int
 	queue := []*Node{root}
 	for len(queue) > 0 {
-		level := []int{nil}
+		var level []int
 		c := len(queue)
 		for c > 0 {
 			ele := queue[0]
