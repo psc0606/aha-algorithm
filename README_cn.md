@@ -91,6 +91,7 @@
 * [字母异位词分组](src/array/group-anagrams.go) [M] [I]
 * [数组中的第K个最大元素](src/array/kth-largest-element-in-an-array.go) [M] [I]
 * [滑动窗口中最大值](src/array/sliding-window-maximum.go) [M] [I]
+* [接雨水](src/array/trapping-rain-water.go) [H] [I]
 
 ---
 ### 链表

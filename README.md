@@ -91,6 +91,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Group Anagrams](src/array/group-anagrams.go) [M] [I]
 * [K-th Largest Element In An Array](src/array/kth-largest-element-in-an-array.go) [M] [I]
 * [Sliding Window Maximum](src/array/sliding-window-maximum.go) [M] [I]
+* [Trap Rain Water](src/array/trapping-rain-water.go) [H] [I]
 
 ---
 ### List
