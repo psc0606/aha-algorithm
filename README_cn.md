@@ -148,6 +148,10 @@
 * [二叉搜索树中第K小的元素](src/tree/kth-smallest-element-in-a-bst.go) [M] [I]
 
 ---
+### 图
+* [课程表](src/graph/course-schedule.go) [M]
+
+---
 ### 回溯
 * [电话号码字母组合](src/backtrace/letter-combinations-of-a-phone-number.go) [M]
 * [组合总和](src/backtrace/combination-sum.go) [M]  

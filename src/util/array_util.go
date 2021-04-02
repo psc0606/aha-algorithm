@@ -16,3 +16,11 @@ func ArrayEqualWithoutSeq(arr1 []string, arr2 []string) bool {
 	}
 	return true
 }
+
+func ArraySum(arr []int) int {
+	ret := 0
+	for _, v := range arr {
+		ret += v
+	}
+	return ret
+}

@@ -148,6 +148,10 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [kth Small Element In A Bst](src/tree/kth-smallest-element-in-a-bst.go) [M] [I]
 
 ---
+### Graph
+* [Course Schedule](src/graph/course-schedule.go) [M]
+
+---
 ### Backtrace
 * [Letter Combinations Of A Phone Number](src/backtrace/letter-combinations-of-a-phone-number.go) [M]
 * [Generate Parenthesis](src/backtrace/generate-parentheses.go) [M] [I]
