@@ -136,6 +136,7 @@
 * [翻转二叉树](src/tree/invert-binary-tree.go) [E]
 * [二叉树的最小深度](src/tree/minimum-depth-of-binary-tree.go) [E]
 * [二叉树的最大深度](src/tree/maximum-depth-of-binary-tree.go) [E]
+* [路径总和](src/tree/path-sum.go) [E]
 * [验证二叉搜索树](src/tree/validate-binary-search-tree.go) [M]
 * [不同的二叉搜索树](src/tree/unique-binary-search-trees.go) [M]
 * [二叉树层序遍历](src/tree/binary-tree-level-order-traversal.go) [M]
