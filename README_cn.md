@@ -91,6 +91,7 @@
 * [字母异位词分组](src/array/group-anagrams.go) [M] [I]
 * [数组中的第K个最大元素](src/array/kth-largest-element-in-an-array.go) [M] [I]
 * [滑动窗口中最大值](src/array/sliding-window-maximum.go) [M] [I]
+* [合并区间](src/array/merge-intervals.go) [M]
 * [接雨水](src/array/trapping-rain-water.go) [H] [I]
 
 ---
@@ -131,6 +132,7 @@
   
 ---
 ### 树
+* [二叉树的直径](src/tree/diameter-of-binary-tree.go) [E]
 * [翻转二叉树](src/tree/invert-binary-tree.go) [E]
 * [二叉树的最小深度](src/tree/minimum-depth-of-binary-tree.go) [E]
 * [二叉树的最大深度](src/tree/maximum-depth-of-binary-tree.go) [E]

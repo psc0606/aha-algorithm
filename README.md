@@ -91,6 +91,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Group Anagrams](src/array/group-anagrams.go) [M] [I]
 * [K-th Largest Element In An Array](src/array/kth-largest-element-in-an-array.go) [M] [I]
 * [Sliding Window Maximum](src/array/sliding-window-maximum.go) [M] [I]
+* [Merge Intervals](src/array/merge-intervals.go) [M]
 * [Trap Rain Water](src/array/trapping-rain-water.go) [H] [I]
 
 ---
@@ -131,6 +132,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 
 ---
 ### Tree
+* [Diameter Of Binary Tree](src/tree/diameter-of-binary-tree.go) [E]
 * [Invert Binary Tree](src/tree/invert-binary-tree.go) [E]
 * [Minimum Depth Of Binary Tree](src/tree/minimum-depth-of-binary-tree.go) [E]
 * [Maximum Depth Of Binary Tree](src/tree/maximum-depth-of-binary-tree.go) [E]
