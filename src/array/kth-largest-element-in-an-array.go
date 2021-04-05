@@ -39,3 +39,6 @@ func partitionKth(nums []int, start, end int) int {
 func swap(nums []int, i, j int) {
 	nums[i], nums[j] = nums[j], nums[i]
 }
+
+// Use minimum heap, O(nlogk), only keep k elements in heap.
+// Use maximum heap, O(nlogn), delete k-1 elements, then get the top of element in heap.
