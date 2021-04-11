@@ -97,6 +97,7 @@
 ---
 ### 链表
 * [反转链表](src/list/reverselist.go) [E] [I]
+* [两个链表的第一个公共节点](src/list/find-first-common-linkedlist-node.go) [E] [I]  
 * [合并两个有序数组](src/list/merge-two-sorted-lists.go) [M] [I]
 * [删除链表的倒数第N个结点](src/list/remove-nth-node-from-end-of-list.go) [M]
 * [环形链表](src/list/linked-list-cycle.go) [E] [I]
@@ -137,7 +138,8 @@
 * [二叉树的最小深度](src/tree/minimum-depth-of-binary-tree.go) [E]
 * [二叉树的最大深度](src/tree/maximum-depth-of-binary-tree.go) [E]
 * [路径总和](src/tree/path-sum.go) [E]
-* [路径总和 II](src/tree/path-sum-ii.go) [M] [I]  
+* [路径总和 II](src/tree/path-sum-ii.go) [M] [I]
+* [路径总和 III](src/tree/path-sum-iii.go) [M]  
 * [验证二叉搜索树](src/tree/validate-binary-search-tree.go) [M]
 * [不同的二叉搜索树](src/tree/unique-binary-search-trees.go) [M]
 * [二叉树层序遍历](src/tree/binary-tree-level-order-traversal.go) [M]

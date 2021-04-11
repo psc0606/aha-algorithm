@@ -97,6 +97,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 ---
 ### List
 * [Reverse List](src/list/reverselist.go) [E] [I]
+* [First Common Linked List Node](src/list/find-first-common-linkedlist-node.go) [E] [I]  
 * [Merge Two Sorted Lists](src/list/merge-two-sorted-lists.go) [M] [I]
 * [Remove n-th Node From End Of List](src/list/remove-nth-node-from-end-of-list.go) [M]
 * [Linked List Cycle](src/list/linked-list-cycle.go) [E] [I]
@@ -138,6 +139,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Maximum Depth Of Binary Tree](src/tree/maximum-depth-of-binary-tree.go) [E]
 * [Path Sum](src/tree/path-sum.go) [E] [I]
 * [Path Sum II](src/tree/path-sum-ii.go) [M] [I]
+* [Path Sum III](src/tree/path-sum-iii.go) [M]  
 * [Validate Binary Search Tree](src/tree/validate-binary-search-tree.go) [M]
 * [Unique binary search trees](src/tree/unique-binary-search-trees.go) [M]
 * [Tree Level Traversal](src/tree/binary-tree-level-order-traversal.go) [M]
