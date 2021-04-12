@@ -98,6 +98,7 @@
 ### 链表
 * [反转链表](src/list/reverselist.go) [E] [I]
 * [删除排序链表中的重复元素](src/list/remove-duplicates-from-sorted-list.go) [E] [I]
+* [删除排序链表中的重复元素II](src/list/remove-duplicates-from-sorted-list-ii.go) [M] [I]
 * [两个链表的第一个公共节点](src/list/find-first-common-linkedlist-node.go) [E] [I]  
 * [合并两个有序数组](src/list/merge-two-sorted-lists.go) [M] [I]
 * [删除链表的倒数第N个结点](src/list/remove-nth-node-from-end-of-list.go) [M]
