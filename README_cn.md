@@ -105,6 +105,7 @@
 * [环形链表](src/list/linked-list-cycle.go) [E] [I]
 * [环形链表 II](src/list/linked-list-cycle-ii.go) [M]
 * [两两交换链表中的节点](src/list/swap-nodes-in-pairs.go) [M] [I]
+* [排序链表](src/list/sort-list.go) [M]
 
 ---
 ### 栈

@@ -105,6 +105,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Linked List Cycle](src/list/linked-list-cycle.go) [E] [I]
 * [Linked List Cycle II](src/list/linked-list-cycle-ii.go) [M] [I]
 * [Swap Nodes In Pairs](src/list/swap-nodes-in-pairs.go) [M] [I]
+* [Sort List](src/list/sort-list.go) [M]
 
 ---
 ### Stack
