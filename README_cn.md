@@ -145,6 +145,7 @@
 * [路径总和 III](src/tree/path-sum-iii.go) [M]  
 * [验证二叉搜索树](src/tree/validate-binary-search-tree.go) [M]
 * [不同的二叉搜索树](src/tree/unique-binary-search-trees.go) [M]
+* [二叉树同时打印先序/中序/后序遍历](src/tree/binary-tree-prorder-inorder-postorder-traversal.go) [E]  
 * [二叉树层序遍历](src/tree/binary-tree-level-order-traversal.go) [M]
 * [二叉树层序遍历II](src/tree/binary-tree-level-order-traversal-ii.go) [M]  
 * [二叉树的锯齿形层序遍历](src/tree/binary-tree-zigzag-level-order-traversal.go) [M]

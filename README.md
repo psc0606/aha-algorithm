@@ -145,6 +145,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Path Sum III](src/tree/path-sum-iii.go) [M]  
 * [Validate Binary Search Tree](src/tree/validate-binary-search-tree.go) [M]
 * [Unique binary search trees](src/tree/unique-binary-search-trees.go) [M]
+* [Binary Tree Preorder-Inorder-Postorder Traversal](src/tree/binary-tree-prorder-inorder-postorder-traversal.go) [E]  
 * [Tree Level Traversal](src/tree/binary-tree-level-order-traversal.go) [M]
 * [Tree Level TraversalII](src/tree/binary-tree-level-order-traversal-ii.go) [M]  
 * [Binary Tree Zigzag Level Order Traversal](src/tree/binary-tree-zigzag-level-order-traversal.go) [M]  
