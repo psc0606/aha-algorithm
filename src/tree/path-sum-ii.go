@@ -21,6 +21,8 @@ func preOrderDfs(root *TreeNode, targetSum int, path []int, ans *[][]int) {
 	}
 	preOrderDfs(root.Left, targetSum-root.Val, path, ans)
 	preOrderDfs(root.Right, targetSum-root.Val, path, ans)
+	// path slice will not be modified by function
+	// path = path[:len(path)-1]
 }
 
 // bfs + hashmap
