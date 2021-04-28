@@ -32,7 +32,7 @@
 * 跳跃表 (TODO)
 * 红黑树 (TODO)
 * [Trie树](src/tree/trie.go)
-* Double Array Tire (TODO)
+* DAT（Double Array Tire） (TODO)
 * B-树 (TODO)
 * B+树 (TODO)
 * B*树 (TODO)
