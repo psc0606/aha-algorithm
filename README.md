@@ -159,6 +159,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Flatten Binary Tree To Linked List](src/tree/flatten-binary-tree-to-linked-list.go) [M]
 * [LCA](src/tree/lowest-common-ancestor-of-a-binary-tree.go) [M]
 * [kth Small Element In A Bst](src/tree/kth-smallest-element-in-a-bst.go) [M] [I]
+* [Binary Tree Right Side View](src/tree/binary-tree-right-side-view.go) [M] [I]
 
 ---
 ### Graph
