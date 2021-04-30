@@ -106,3 +106,10 @@ func TestSliceCopy(t *testing.T) {
 	dst = append([]int(nil), src...)
 	fmt.Println(dst)
 }
+
+func TestLenCap(t *testing.T) {
+	src := []int{1, 3, 4}
+	src = append(src, 10)
+	fmt.Println(len(src)) // len
+	fmt.Println(cap(src)) // cap
+}
