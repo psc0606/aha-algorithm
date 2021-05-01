@@ -8,6 +8,7 @@
 
 # 目录
 ## 字符串匹配算法
+* [KMP](src/string/kmp.go) [M] [I]
 * 多模匹配算法 Wu-Manber(WM) 算法
 * 单模 Shift-And 算法
 
