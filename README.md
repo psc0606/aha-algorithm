@@ -8,6 +8,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 
 # Table
 ## String Matching
+* [BF](src/string/bf.go)
 * [KMP](src/string/kmp.go) [M] [I]
 * Wu-Manber(WM) Algorithm
 * Shift-And Algorithm
