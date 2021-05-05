@@ -166,6 +166,7 @@
 ---
 ### 图
 * [课程表](src/graph/course-schedule.go) [M]
+* [最小生成树](src/graph/minimum_spanning_tree.go) [M] [I]
 
 ---
 ### 回溯

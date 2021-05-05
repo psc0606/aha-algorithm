@@ -166,6 +166,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 ---
 ### Graph
 * [Course Schedule](src/graph/course-schedule.go) [M]
+* [Minimum Spanning Tree, MST](src/graph/minimum_spanning_tree.go) [M] [I]
 
 ---
 ### Backtrace
