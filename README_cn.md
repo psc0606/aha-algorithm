@@ -31,7 +31,7 @@
 * [并查集](src/tree/disjoint-set.go)
 * [堆](src/heap/heap.go)
 * 树堆 (TODO)
-* 跳跃表 (TODO)
+* [跳跃表](src/list/skiplist.go)
 * 红黑树 (TODO)
 * [Trie树](src/tree/trie.go)
 * DAT（Double Array Tire） (TODO)
