@@ -132,6 +132,7 @@
 * [最大子序和](src/optimalization/maximum-subarray.go) [E] [I]  
 * [乘积最大子数组](src/optimalization/maximum-product-subarray.go) [M]
 * [单词拆分](src/string/word-break.go) [M]
+* [最长回文串](src/optimalization/longest-palindromic-substring.go) [M]
 
 ---
 #### 背包问题

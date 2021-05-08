@@ -132,6 +132,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Maximum Subarray](src/optimalization/maximum-subarray.go) [E] [I]  
 * [Maximum Product Subarray](src/optimalization/maximum-product-subarray.go) [M]
 * [word break](src/string/word-break.go) [M]
+* [Longest Palindromic Substring](src/optimalization/longest-palindromic-substring.go) [M]
 
 ---
 #### Knapsack problem
