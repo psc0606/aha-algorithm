@@ -84,6 +84,8 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Merge Sorted Array](src/array/merge-sorted-array.go) [E] [I]
 * [Intersection Of Two Arrays](src/array/intersection-of-two-arrays.go) [E]
 * [Intersection Of Two ArraysII](src/array/intersection-of-two-arrays-ii.go) [E]
+* [Intersection Of Two ArraysIII](src/array/intersection-of-two-arrays-iii.go) [E]
+* [Intersection Of Two ArraysIV](src/array/intersection-of-two-arrays-iv.go) [E]  
 * [Fibonacci Number](src/array/fibonacci_number.go) [E]
 * [Two Sum](src/array/twosum.go) [E] [I]
 * [Three Sum](src/array/threesum.go) [M] [I]
