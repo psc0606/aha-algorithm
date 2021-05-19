@@ -27,6 +27,7 @@ func inorder(root *TreeNode, arr *[]int) {
 // dfs with stack
 // Time: O(logn + k)
 // Space: O(1)
+// @see inorder iterator non-recursively
 func kthSmallestBfs(root *TreeNode, k int) int {
 	if root == nil {
 		return -1

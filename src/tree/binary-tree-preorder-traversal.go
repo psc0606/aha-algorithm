@@ -42,3 +42,28 @@ func preorderTraversalBfs(root *TreeNode) []int {
 	}
 	return ret
 }
+
+// dfs + stack
+//     3
+//   / \
+//  9  20
+//    /  \
+//   15   7
+func preorderTraversalDfs(root *TreeNode) []int {
+	var ret []int
+	var stack []*TreeNode
+	ptr := root
+	for len(stack) > 0 || ptr != nil {
+		for ptr != nil {
+			ret = append(ret, ptr.Val)
+			stack = append(stack, ptr)
+			ptr = ptr.Left
+		}
+		ptr = stack[len(stack)-1].Right
+		stack = stack[0 : len(stack)-1]
+	}
+	return ret
+}
+
+// more about
+// https://leetcode-cn.com/problems/binary-tree-preorder-traversal/solution/er-cha-shu-de-qian-xu-bian-li-by-leetcode-solution/

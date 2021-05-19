@@ -2,23 +2,25 @@ package tree
 
 // https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
 // An elegant implementation by stack and a pointer.
-func inorderTraversal(root *TreeNode) []int {
-	var stack []*TreeNode
-	var ret []int
-	ptr := root
-	for len(stack) > 0 || ptr != nil {
-		if ptr != nil {
-			stack = append(stack, ptr)
-			ptr = ptr.Left
-		} else {
-			// pop a element from stack top
-			ptr = stack[len(stack)-1]
-			stack = stack[0 : len(stack)-1]
-			ret = append(ret, ptr.Val)
-			ptr = ptr.Right
+// dfs + stack
+//     3
+//   /  \
+//  9   20
+//     /  \
+//    15   7
+func inorderTraversal(root *TreeNode) (res []int) {
+	stack := []*TreeNode{}
+	for root != nil || len(stack) > 0 {
+		for root != nil {
+			stack = append(stack, root)
+			root = root.Left
 		}
+		root = stack[len(stack)-1]
+		stack = stack[:len(stack)-1]
+		res = append(res, root.Val)
+		root = root.Right
 	}
-	return ret
+	return
 }
 
 // Time: O(n)
