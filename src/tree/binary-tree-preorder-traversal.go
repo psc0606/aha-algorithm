@@ -17,7 +17,7 @@ func preorderTraversal(root *TreeNode) []int {
 	return ret
 }
 
-// dfs + stack
+// bfs + stack
 //     3
 //   / \
 //  9  20
