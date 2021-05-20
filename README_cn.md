@@ -137,6 +137,7 @@
 * [乘积最大子数组](src/optimalization/maximum-product-subarray.go) [M]
 * [单词拆分](src/string/word-break.go) [M]
 * [最长回文串](src/optimalization/longest-palindromic-substring.go) [M]
+* [无重复字符的最长子串](src/optimalization/longest-substring-without-repeating-characters.go) [M] [I]
 
 ---
 #### 背包问题
