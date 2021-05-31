@@ -15,6 +15,18 @@ func TestLengthOfLongestSubstring(t *testing.T) {
 		t.Errorf("expected is [%v], actual is [%v]", expected, actual)
 	}
 
+	actual = lengthOfLongestSubstring("abba")
+	expected = 2
+	if actual != expected {
+		t.Errorf("expected is [%v], actual is [%v]", expected, actual)
+	}
+
+	actual = lengthOfLongestSubstring("tmmzuxt")
+	expected = 5
+	if actual != expected {
+		t.Errorf("expected is [%v], actual is [%v]", expected, actual)
+	}
+
 	actual = lengthOfLongestSubstring("a")
 	expected = 1
 	if actual != expected {

@@ -1,58 +1,49 @@
 package optimalization
 
-import "aha-algorithm/src/util"
-
 // https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
 
 // First: dynamic programming
 // Time: O(n)
 // Space: O(n)
 func lengthOfLongestSubstring(s string) int {
-	if len(s) == 0 {
-		return 0
+	n := len(s)
+	if n <= 1 {
+		return n
 	}
-	hashmap := make(map[uint8]int)
-	// init the first one
-	hashmap[s[0]] = 0
-	startIndexOfSubstring := 0
-	currMaxLength := 1
-
-	// start from second
-	for i := 1; i < len(s); i++ {
-		index, ok := hashmap[s[i]]
-		if ok {
-			// `index` may be out of date.
-			startIndexOfSubstring = util.Max(startIndexOfSubstring, index+1)
-		}
-		currMaxLength = util.Max(i-startIndexOfSubstring+1, currMaxLength)
-		hashmap[s[i]] = i
+	ans := 1
+	ht := make([]int, 256)
+	for i := 0; i < 256; i++ {
+		ht[i] = -1
 	}
-	return currMaxLength
+	dp := make([]int, n)
+	ht[s[0]] = 0
+	dp[0] = 0
+	for i := 1; i < n; i++ {
+		dp[i] = max(dp[i-1], ht[s[i]]+1)
+		ht[s[i]] = i
+		ans = max(ans, i-dp[i]+1)
+	}
+	return ans
 }
 
-// Second: Another perfect way to solve this problem is sliding window.
-// Time: O(n)
-// Space: O(n)
+// Slide window
 func lengthOfLongestSubstring2(s string) int {
 	if len(s) == 0 {
 		return 0
 	}
-	hashmap := make(map[uint8]int)
-	// The max size of window
-	maxWindowSize := 0
-	// The start index of the current window.
-	j := 0
-	for i := 0; i < len(s); i++ {
-		hashmap[s[i]]++
-		// more than one in current window, shrink the left until no more duplicate elements in the current window.
-		for hashmap[s[i]] > 1 {
-			hashmap[s[j]]--
-			if hashmap[s[j]] <= 0 {
-				delete(hashmap, s[j])
-			}
-			j++
+	ht := make(map[uint8]int)
+	ht[s[0]] = 0
+	i := 0
+	ans := 1
+
+	for j := 1; j < len(s); j++ {
+		index, ok := ht[s[j]]
+		if ok {
+			// `index` may be out of window.
+			i = max(i, index+1)
 		}
-		maxWindowSize = util.Max(maxWindowSize, i-j+1)
+		ans = max(j-i+1, ans)
+		ht[s[j]] = j
 	}
-	return maxWindowSize
+	return ans
 }

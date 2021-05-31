@@ -25,4 +25,7 @@ func TestMapIterator(t *testing.T) {
 	for k, v := range ht {
 		fmt.Println(k, v)
 	}
+	// not exists, but return 0
+	v := ht[3]
+	fmt.Println(v)
 }
