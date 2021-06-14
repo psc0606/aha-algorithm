@@ -127,7 +127,7 @@
 * [设计双端循环队列](src/queue/design-circular-deque.go) [M]
 
 ---
-### 动态规划和贪心
+### 动态规划
 * [爬楼梯](src/optimalization/climbing-stairs.go) [E] [I]
 * [买卖股票的最佳时机](src/optimalization/best-time-to-buy-and-sell-stock.go) [E]
 * [最佳买卖股票时机含冷冻期](src/optimalization/best-time-to-buy-and-sell-stock-with-cooldown.go) [M]  
@@ -138,6 +138,10 @@
 * [单词拆分](src/string/word-break.go) [M]
 * [最长回文串](src/optimalization/longest-palindromic-substring.go) [M]
 * [无重复字符的最长子串](src/optimalization/longest-substring-without-repeating-characters.go) [M] [I]
+
+---
+### 贪心
+* [分发饼干](src/greedy/assign-cookies.go) [E]
 
 ---
 #### 背包问题

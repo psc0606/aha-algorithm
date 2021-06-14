@@ -127,7 +127,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [Design Circular Dequeue](src/queue/design-circular-deque.go) [M]
 
 ---
-### Dynamic Programming And Greedy
+### Dynamic Programming
 * [Climbing Stairs](src/optimalization/climbing-stairs.go) [E] [I]
 * [Best Time To Buy And Sell Stock](src/optimalization/best-time-to-buy-and-sell-stock.go) [E]
 * [Best Time To Buy And Sell Stock With Cool Down](src/optimalization/best-time-to-buy-and-sell-stock-with-cooldown.go) [M]  
@@ -138,6 +138,10 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 * [word break](src/string/word-break.go) [M]
 * [Longest Palindromic Substring](src/optimalization/longest-palindromic-substring.go) [M]
 * [Longest Substring Without Repeating Characters](src/optimalization/longest-substring-without-repeating-characters.go) [M] [I]
+
+---
+### Greedy
+* [Assign Cookies](src/greedy/assign-cookies.go) [E]
 
 ---
 #### Knapsack problem
