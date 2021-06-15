@@ -142,6 +142,7 @@ Aha, algorithm by go. See Chinese [README.md](./README_cn.md)
 ---
 ### Greedy
 * [Assign Cookies](src/greedy/assign-cookies.go) [E]
+* [Candy](src/greedy/candy.go) [H]
 
 ---
 #### Knapsack problem

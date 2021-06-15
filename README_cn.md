@@ -142,6 +142,7 @@
 ---
 ### 贪心
 * [分发饼干](src/greedy/assign-cookies.go) [E]
+* [分发糖果](src/greedy/candy.go) [H]
 
 ---
 #### 背包问题
