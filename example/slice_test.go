@@ -74,6 +74,11 @@ func TestInsert(t *testing.T) {
 }
 
 func TestArrayAppend(t *testing.T) {
+	defer func() {
+		if r := recover(); r != nil {
+			fmt.Printf("catched panic：%s\n", r)
+		}
+	}()
 	// init capacity is 0, max capacity is 10.
 	arr := make([]int, 0, 10)
 	fmt.Println(len(arr)) // 0
